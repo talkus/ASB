@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/sol-native-heartbeat.yml
+  pull_request:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
@@ -11,7 +12,7 @@ on:
 permissions: {}
 
 concurrency:
-  group: sol-native-heartbeat
+  group: sol-native-heartbeat-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
