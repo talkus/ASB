@@ -30,3 +30,9 @@ Les forks suivants existent déjà en public sur GitHub et ne sont pas recopiés
 - `Tutorial` — quasi vide (heartbeat probe)
 
 Seul le travail original (`harmonie-libre`) est archivé dans ce dépôt.
+
+## Export Notion / Drive (2026-09-14)
+
+Pipeline ajouté sous `tools/export/`. Exécution sans secrets → statut `blocked_auth` pour les 20 cibles (voir `public/exports/manifest/EXPORT_MANIFEST.md`).
+
+Secrets requis pour un export réel : `NOTION_TOKEN`, `GOOGLE_SERVICE_ACCOUNT_JSON` ou `GOOGLE_OAUTH_TOKEN_JSON`.
