@@ -7,7 +7,7 @@ Dépôt public de sauvegarde et de rapatriement des travaux produits avec des ag
 | Chemin | Origine | Description |
 |--------|---------|-------------|
 | [`public/harmonie-libre/`](public/harmonie-libre/) | [talkus/harmonie-libre](https://github.com/talkus/harmonie-libre) @ `fc7bac82` (2026-09-14) | Snapshot intégral : manifeste, Anneau des 23, Forteresse, registre de continuité, overview projets |
-| [`public/exports/`](public/exports/) | Notion + Google Drive | Pipeline d’export (en attente des secrets) — inventaire 20 cibles |
+| [`public/exports/`](public/exports/) | Notion + Google Drive | Pipeline d'export (en attente des secrets) — inventaire 20 cibles |
 
 ## Modules inclus (harmonie-libre)
 
@@ -27,8 +27,8 @@ Suivi : [`public/exports/manifest/EXPORT_MANIFEST.md`](public/exports/manifest/E
 
 Pour débloquer, ajouter dans les secrets Cloud Agent de ce dépôt :
 
-1. `NOTION_TOKEN` — puis partager les pages avec l’intégration Notion  
-2. `GOOGLE_SERVICE_ACCOUNT_JSON` (recommandé) **ou** `GOOGLE_OAUTH_TOKEN_JSON` — puis partager les dossiers Drive avec le compte de service  
+1. `NOTION_TOKEN` — puis partager les pages avec l'intégration Notion
+2. `GOOGLE_SERVICE_ACCOUNT_JSON` (recommandé) **ou** `GOOGLE_OAUTH_TOKEN_JSON` — puis partager les dossiers Drive avec le compte de service
 3. Relancer : `./tools/export/run_export.sh`
 
 ## Provenance
