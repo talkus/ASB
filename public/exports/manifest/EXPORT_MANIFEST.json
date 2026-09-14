@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-09-14T05:09:30.682183+00:00",
+  "notion": {
+    "ok": false,
+    "error": "NOTION_TOKEN missing",
+    "at": "2026-09-14T05:07:20.639417+00:00"
+  },
+  "drive": {
+    "ok": false,
+    "error": "Google credentials missing",
+    "at": "2026-09-14T05:07:20.785096+00:00"
+  },
+  "items": [
+    {
+      "id": "notion-01",
+      "title": "Audit Légal — Plan CAPA 8 Semaines",
+      "source": "notion",
+      "match": "CAPA",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-02",
+      "title": "AEGIS-24 — Le Premier Cercle",
+      "source": "notion",
+      "match": "AEGIS",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-03",
+      "title": "Test de Relais IA",
+      "source": "notion",
+      "match": "Relais",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-04",
+      "title": "Anneau des 23 — Implémentation v2.0",
+      "source": "notion",
+      "match": "Anneau",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-05",
+      "title": "Analyse — 100 Tests Amour Choisi",
+      "source": "notion",
+      "match": "Amour Choisi",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-06",
+      "title": "Archives Mammouth — Rapport",
+      "source": "notion",
+      "match": "Mammouth",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-07",
+      "title": "Corpus Biblique — Amour (60 réf.)",
+      "source": "notion",
+      "match": "Corpus Biblique",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-08",
+      "title": "Théorie unificatrice",
+      "source": "notion",
+      "match": "Théorie unificatrice",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-09",
+      "title": "Thermodynamique relationnelle",
+      "source": "notion",
+      "match": "Thermodynamique",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-10",
+      "title": "Fondements bibliques de l'amour",
+      "source": "notion",
+      "match": "Fondements bibliques",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-11",
+      "title": "WayMaker",
+      "source": "notion",
+      "match": "WayMaker",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "notion-12",
+      "title": "Hub Projets — Vue d'ensemble",
+      "source": "notion",
+      "match": "Hub Projets",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "drive-theorie",
+      "title": "Théorie unificatrice (sources Drive ~200 KB)",
+      "source": "drive",
+      "match": "Théorie",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "drive-thermo",
+      "title": "Thermodynamique relationnelle (sources Drive ~148 KB)",
+      "source": "drive",
+      "match": "thermodynamique",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "drive-biblique",
+      "title": "Fondements bibliques / corpus (Google Docs)",
+      "source": "drive",
+      "match": "biblique",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "drive-waymaker",
+      "title": "WayMaker sources + tableaux",
+      "source": "drive",
+      "match": "WayMaker",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "drive-mammouth",
+      "title": "Archives Mammouth ZIP",
+      "source": "drive",
+      "match": "Mammouth",
+      "expected_sha256": "a3ae0dd3387266b34f412d042b0169e96177f4a59ec8560176591560fe0d2bc0",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "drive-xlsx-amour",
+      "title": "100 Tests Amour Choisi (XLSX)",
+      "source": "drive",
+      "match": "Amour Choisi",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "drive-aegis",
+      "title": "AEGIS-24 Google Doc",
+      "source": "drive",
+      "match": "AEGIS",
+      "status": "blocked_auth",
+      "matched": null
+    },
+    {
+      "id": "drive-capa",
+      "title": "Audit Légal CAPA Google Doc",
+      "source": "drive",
+      "match": "CAPA",
+      "status": "blocked_auth",
+      "matched": null
+    }
+  ],
+  "summary": {
+    "total": 20,
+    "exported": 0,
+    "blocked_auth": 20,
+    "pending": 0
+  }
+}
