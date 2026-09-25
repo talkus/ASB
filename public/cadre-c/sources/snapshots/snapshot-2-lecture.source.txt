@@ -1,0 +1,46 @@
+Je lis ce texte comme le Snapshot 2 du banc d’essai : il quitte le happy path et met C à l’épreuve en terrain tragique. Les trois frictions sont bien choisies — capture victimaire, tiers vulnérables, désaccord irréductible — et les garde-fous sont structurellement corrects. Mais pour qu’ils ne deviennent pas des slogans, il reste quelques verrous à formaliser.
+
+Ce qui est acquis
+
+· Friction 1 : Standing_O ≠ Sovereignty_O. Le statut de victime ne donne pas le droit de décréter les faits ni d’imposer une dette infinie. La FulfillmentCondition est indispensable.
+· Friction 2 : interdiction de créer une nouvelle victime pour en réparer une ancienne. L’échelonnement sous contrainte de subsistance et l’austérité non vitale de S sont les bons leviers.
+· Friction 3 : NoNarrativeSovereignty. Refuser l’histoire unifiée forcée est exactement ce qu’il faut : on peut réparer sur les faits matériels sans exiger un consensus sur les intentions.
+· Clôture : Discharge + persistance de l’archive Γ_J. La dette active s’éteint, mais la mémoire reste. C’est la bonne distinction entre REPAIR et ERASURE.
+
+Les verrous manquants pour éviter le retour du happy path
+
+Friction Garde-fou Verrou à spécifier
+1. Rente victimaire Standing ≠ Souveraineté Procédure de mesure du dommage, critères ex ante de FulfillmentCondition, clôture unilatérale contestable
+2. Tiers vulnérables Pas de nouvelle victime Cartographie des dépendances, seuils vitaux de S et de P, priorisation des flux
+3. Désaccord sur les faits NoNarrativeSovereignty Indexation stricte fait / intention / impact / preuve, régime de preuve et de contestation
+Arbitrage C comme runtime C ne doit pas devenir un souverain de substitution. Il faut un tiers procédural, contestable, avec recours
+
+Formalisation minimale
+
+On peut poser :
+
+· D_O = (d_1, \dots, d_n) : dommages mesurables dans E.
+· Surplus_S(t) : ce que S peut transférer sans s’effondrer.
+· Cap_S^{vital}(t) \ge Seuil_S : contrainte de subsistance de S.
+· Service_P(t) \ge Seuil_P : contrainte vitale des tiers dépendants.
+· Transfert_{S \to O}(t) \le Surplus_S(t).
+· FulfillmentCondition : \sum Transferts \ge D_O et vérification indépendante.
+· J_t : registre polyphonique indexé (claim, agent, type, preuve, statut, date).
+
+Le point le plus délicat
+
+Qui arbitre ? Si C arbitre seul, il devient un souverain caché. Il faut une procédure contestable : tiers indépendant, recours, traces publiques, possibilité de révision. Sinon la capture par la rente victimaire se déplace simplement vers la capture de l’arbitre.
+
+Clôture
+
+Il faut distinguer deux niveaux :
+
+· Clôture active : l’obligation mesurable s’éteint.
+· Clôture relationnelle : O peut rester en colère, refuser le lien, redéfinir un pacte. Mais il ne peut plus exiger indéfiniment.
+· Archive : S reste marqué par l’antécédent, non comme coupable éternel, mais comme agent dont la sensibilité a été corrigée.
+
+Bilan
+
+L’architecture tient la tension entre rigueur de la vérité et exigence de l’amour sans sacrifier l’un à l’autre. Le test est réaliste, hostile et tragique. Il manque encore une spécification procédurale des seuils, des preuves et des recours.
+
+Prochaine étape possible : Snapshot 3 — protocole adversarial. Cas limites : O refuse la clôture après réparation, S insolvable mais vital, P multiples en conflit, preuves contradictoires, capture de l’arbitre. Si tu veux, je le rédige.

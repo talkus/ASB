@@ -72,3 +72,19 @@ Un second message, reçu le même jour dans la même session, contenait deux tex
 Les empreintes attestent les copies déposées dans ce dépôt, telles que reçues dans la session. Elles ne disent rien de l'original chez l'expéditeur.
 
 Vérification des artefacts que la transcription déclare produits (Drive, Notion et ce dépôt consultés le 2026-09-25) : la Charte Générale et Manuel de Gouvernance du Cadre C (Drive `1BSDnIHkohDOauQ1QoNcdV7CD3t77EbuqWzHJjRKddtI`, relue, 29 articles) et le Dossier d'Ingénierie Institutionnelle ASU / ADU-3 (Drive `1I5enlC6scgxUwI7kOPrUxiJJ0IencQDgLKZuiAHZvtI`) existent ; le paquet Python `c_runtime` et ses 18 tests n'ont été retrouvés nulle part. Les documents Drive ne sont pas recopiés ici.
+
+## Cadre C, troisième réception (2026-09-25)
+
+Un troisième message, reçu le même jour dans la même session, a apporté les textes intégraux des Snapshots 8, 7, 6, 5, 4 et 3, dans cet ordre, puis la lecture critique du Snapshot 2. Ils comblent la lacune consignée ci-dessus. Déposés sous `public/cadre-c/sources/snapshots/`, un fichier par texte, scindés aux titres « Snapshot N — » et à la phrase « Je lis ce texte comme le Snapshot 2 du banc d'essai ».
+
+| Fichier | SHA-256 | Octets |
+|---------|---------|--------|
+| `snapshot-8.source.txt` | `6eb7a65d5cf57672ea74c17b48d7280a0fce823c0281cca0fb6b2c973ffbf2e5` | 16073 |
+| `snapshot-7.source.txt` | `bead721ba243b8fdd9be1cdaa639924910cff377873991849a8f69e95c9d2f53` | 18683 |
+| `snapshot-6.source.txt` | `c94a378484060bf94d550f2db5d293537aeccd1cfbf4476642612572a4318a9e` | 14678 |
+| `snapshot-5.source.txt` | `03079fe6e60351a9e00f612f37e0ac4798eab0b8258ae358945647c7389d5f27` | 13307 |
+| `snapshot-4.source.txt` | `b0ff4e6c04cb33e66349b994b7e99afd781a1920f2c83f43ac79576892a0ea85` | 10872 |
+| `snapshot-3.source.txt` | `a006b0eb41eab85d4f07c30a0a069b52c849b2b508af038a0b0333c346896ee3` | 9319 |
+| `snapshot-2-lecture.source.txt` | `bd057c5314a71fb5d73f7547c8e7b0c8df94d72e36ee876551c28cb5b9cbec0c` | 3512 |
+
+Notes de fidélité et de cohérence, détaillées dans `public/cadre-c/cycle-snapshots-1-8.md` § 6 : tableaux aplatis au collage, aucune équation perdue ; le Snapshot 6 déclare ses données illustratives, ce qui requalifie le dossier ASU / ADU-3 de Drive en cas construit ; une incohérence interne consignée (180 000 décisions sur 18 mois contre 15 000 par mois) ; les chiffres du Snapshot 7 recalculent juste ; les règles 6.3 et 7.6 n'ont pas d'article dédié dans la Charte Générale.

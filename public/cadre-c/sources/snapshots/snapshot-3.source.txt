@@ -1,0 +1,160 @@
+Snapshot 3 — Protocole adversarial
+
+0. Statut du document
+
+Le Snapshot 2 a établi les garde-fous. Le Snapshot 3 les soumet à des cas où aucune solution propre n’existe. Objectif : vérifier que C ne promet pas la résolution, mais la navigation tenable sous irréductibilité. Un protocole qui ne survit qu’aux cas solubles est un happy path déguisé.
+
+Règle directrice :
+
+C ne garantit pas l’issue. C garantit la traçabilité, la contestabilité, et la non-destruction des seuils vitaux.
+
+---
+
+1. L’arbitre comme fonction, non comme souverain
+
+L’arbitre A n’est pas une instance, c’est une fonction distribuée :
+
+· A₁ — Instruction : qualification des faits, recevabilité.
+· A₂ — Mesure : dommages, seuils, surplus.
+· A₃ — Décision : barème, échelonnement, priorisation.
+· A₄ — Recours : réexamen sur moyens limités.
+· A₅ — Audit : détection de biais, conflits d’intérêts, patterns.
+
+Propriétés obligatoires :
+
+· Révocable : chaque niveau peut être récusé.
+· Traçable : toute décision laisse une trace indexée dans J_t.
+· Contestable : aucun niveau n’est terminal sans voie de recours ouverte.
+· Non-cumulable : une même personne ne siège pas à deux niveaux sur le même litige.
+· Plafonné : délais impératifs, sinon décision par défaut.
+
+Si A devient souverain, la capture victimaire se déplace simplement vers la capture arbitrale. C’est le premier angle mort.
+
+---
+
+2. Cas limite 1 — Refus de clôture par O
+
+Situation : FulfillmentCondition objectivement satisfaite, vérifiée par A₂. O refuse la clôture et prolonge la réclamation.
+
+Traitement :
+
+1. Constat de satisfaction : A₂ émet un certificat Sat(D_O) opposable.
+2. Extinction active : l’obligation mesurable s’éteint. Le standing de réclamation de O sur ce litige devient non-exigible.
+3. Conversion du résidu : le refus est reclassé en désaccord relationnel non-monétaire. Il n’ouvre droit à aucun transfert supplémentaire, aucune servitude, aucune extension punitive.
+4. Persistance de l’archive : Γ_J conserve le fait, la réparation, la date, le certificat.
+5. Clause de réouverture : recevable seulement sur faits nouveaux matériellement établis, avec seuil de preuve élevé. Interdiction du ne bis in idem sur la même base factuelle.
+
+Garde-fou anti-dérive : un refus prolongé et public de O est lui-même archivé. Il ne crée pas de dette inverse, mais il devient un fait opposable dans toute relation future avec O. C’est le prix de la souveraineté narrative : elle est libre, elle est tracée.
+
+Ce que C ne fait pas : il ne force pas O à pardonner, ni à reconnaître. Il empêche seulement que le refus devienne une rente perpétuelle.
+
+---
+
+3. Cas limite 2 — Insolvabilité vitale de S
+
+Situation : Actif_S < D_O et Actif_S < Seuil_S, mais la disparition de S rompt Seuil_P. S est à la fois débiteur et infrastructure vitale.
+
+Traitement : ordre lexicographique strict.
+
+```
+Priorité 1 : Seuil_P  (tiers vulnérables — non négociable)
+Priorité 2 : Seuil_S  (subsistance de S — condition de continuité)
+Priorité 3 : D_O      (réparation — plafonnée par 1 et 2)
+```
+
+Conséquences :
+
+· Plafonnement structurel : Transfert_{S→O}(t) ≤ Surplus_S(t) sous contraintes 1 et 2. La dette ne peut pas exiger ce qui n’existe pas.
+· Dette résiduelle non-exigible : le reliquat D_O − ΣTransferts est enregistré dans Γ_J avec statut RÉSIDUEL_NON_EXIGIBLE. Ni effacé, ni exigible. Reconnaissance sans prédation.
+· Gouvernance contrainte : S passe sous régime de tutelle procédurale (suppression des marges non vitales, dividendes, prestige, expansion) tant que le résiduel n’est pas révisé.
+· Révision périodique : si la situation de S s’améliore, la dette résiduelle redevient exigible selon un barème indexé.
+
+Angle mort assumé : si S est insolvable et irremplaçable et non coopératif, C ne peut pas produire de justice matérielle. Il produit une justice procédurale : constat, archive, contrainte de gouvernance, impossibilité d’amnésie. C’est un échec partiel reconnu, pas dissimulé.
+
+---
+
+4. Cas limite 3 — Multiplicité et concurrence des P
+
+Situation : P₁, P₂, …, Pₙ dépendent de S avec des seuils vitaux incompatibles. Aucune allocation ne satisfait tous les seuils simultanément.
+
+Traitement :
+
+1. Classification des seuils :
+   · Critique : survie immédiate.
+   · Structurel : continuité à moyen terme.
+   · Préférentiel : qualité, confort, expansion.
+2. Priorité lexicographique intra-niveau : à criticité égale, priorité au plus grand nombre de vies, puis au plus vulnérable, puis au premier arrivé dans la file documentée.
+3. Décision motivée publiquement : chaque perdant reçoit une justification écrite indexée dans J_t.
+4. Compensation structurelle : le perdant n’a pas droit à une part égale, mais à une voie de sortie (relogement, substitution, indemnisation différée) — pas à une égalité fictive.
+5. Contestabilité : recours possible sur la qualification du seuil, pas sur l’arbitrage de rareté lui-même.
+
+Ce que C refuse : la fiction d’une solution qui satisfait tout le monde. En rareté critique, l’arbitrage est tragique. C le nomme, l’archive, et l’assume.
+
+---
+
+5. Cas limite 4 — Preuves contradictoires symétriques
+
+Situation : S et O produisent des preuves de force comparable sur les faits matériels bruts. Aucun consensus possible. Les intentions sont inconciliables.
+
+Traitement :
+
+· Séparation des registres dans J_t :
+  ```
+  fait_établi | fait_contesté | fait_non-établi
+  intention_déclarée_S | intention_perçue_O
+  impact_mesuré | impact_contesté
+  ```
+· Statut non-établi : légitime, opposable, non-humiliant. Ne pas trancher est une décision traçable.
+· Décision sous incertitude : réparation provisoire, conditionnelle, révisable si de nouveaux éléments émergent.
+· Interdiction de forcer le consensus narratif : S n’est pas obligé de confesser une intention qu’il nie. O n’est pas obligé de reconnaître la bonne foi de S.
+· Faisceau d’indices : A₂ peut établir un fait par convergence, sans preuve directe. La méthode est publiée, donc contestable.
+· Marge d’erreur explicite : chaque conclusion porte son niveau de confiance. Pas de vérité en gras sans intervalle.
+
+Angle mort : si les preuves sont symétriques et les impacts eux-mêmes contestés, C ne peut produire qu’une réparation suspendue. Le litige reste ouvert, mais borné : pas d’extension, pas de blocage des seuils vitaux.
+
+---
+
+6. Cas limite 5 — Capture ou partialité de l’arbitre
+
+Situation : A₁…A₅ montrent des patterns de biais, ou un conflit d’intérêts structurel.
+
+Mécanismes anti-capture :
+
+Mécanisme Effet Limite
+Récusation Retrait d’un arbitre Peut être instrumentalisée
+Tirage aléatoire Réduction de la collusion Lent, coûteux
+Rotation Empêche l’enracinement Perte d’expertise
+Double niveau Contestation interne Peut être capturé en bloc
+Audit externe Détection de biais Peut être neutralisé
+Journalisation publique Opposition traçable Coût de confidentialité
+Délais impératifs Évite le blocage infini Force des décisions imparfaites
+Décision par défaut Continuité du système Risque d’injustice automatique
+
+Règle anti-blocage : aucun recours ne peut suspendre indéfiniment les seuils vitaux. En cas de blocage, une décision provisoire minimale est exécutée, révisable.
+
+Angle mort final — le point de rupture : si tous les niveaux sont capturés simultanément, C ne peut pas s’auto-corriger. La sortie n’est plus procédurale, elle est politique : exit, sécession, voix externe, ou reconstruction d’un A hors du système. C doit reconnaître cette limite, l’inscrire dans Γ_J, et ne pas prétendre à l’auto-suffisance.
+
+---
+
+7. Bilan adversarial
+
+Cas Ce que C tient Ce que C ne peut pas Résidu inscrit
+Refus de clôture Extinction active, archive Forcer le pardon Désaccord relationnel tracé
+Insolvabilité vitale Priorité vitale, gouvernance Justice matérielle pleine Dette résiduelle non-exigible
+P multiples Décision motivée, sortie Satisfaction universelle Arbitrage tragique assumé
+Preuves symétriques Statut non-établi, révision Vérité commune Réparation provisoire
+Capture arbitrale Récusation, audit, défaut Auto-correction totale Point de rupture reconnu
+
+Trois acquis structurels :
+
+1. C n’est pas un juge suprême. Il est un runtime procédural, contestable, révocable, faillible.
+2. L’irréductible est archivé, pas dissimulé. Le non-établi, le résiduel, le tragique sont des statuts légitimes.
+3. La sortie du système est prévue. Quand C ne peut plus corriger, il doit permettre l’exit, la voix externe, la reconstruction — sans prétendre à l’omniscience.
+
+---
+
+8. Ce que le Snapshot 3 établit
+
+Le banc d’essai ne prouve plus que C « fonctionne ». Il prouve que C échoue proprement : sans amnésie, sans servitude, sans nouvelle victime, sans souveraineté cachée. C’est exactement la différence entre REPAIR et ERASURE.
+
+Prochaine épreuve possible — Snapshot 4 : protocole de sortie. Cas où C lui-même est la source du préjudice, ou quand l’exit est la seule réponse légitime. Si tu veux, je le rédige.

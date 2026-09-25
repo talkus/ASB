@@ -1,0 +1,483 @@
+Snapshot 7 — Test de coût et faisabilité économique
+
+0. Statut du test
+
+Les Snapshots 1 à 6 ont établi un cadre procédural et mesuré son écart au réel. Le Snapshot 7 pose la question que toute architecture de justice évite soigneusement :
+
+Combien coûte la justice procédurale, qui paie, et à partir de quand devient-elle destructrice de ce qu’elle protège ?
+
+Ce test est le plus inconfortable du cycle. Il oblige à mettre un prix sur des choses qu’on préférerait déclarer inestimables. Refuser de le faire n’annule pas le coût — cela le dissimule.
+
+Règle directrice :
+
+Une justice qui ne compte pas ses coûts finit toujours par les faire payer à ceux qu’elle prétend protéger.
+
+---
+
+1. Décomposition du coût de C
+
+Le coût total d’une procédure complète se décompose en sept postes, souvent confondus :
+
+Poste Symbole Description
+Coût d’instruction K_I Recevabilité, qualification, mesure (A₁, A₂)
+Coût de décision K_D Arbitrage, barème, publication (A₃)
+Coût de recours K_R Réexamen, pourvoi (A₄)
+Coût d’audit K_A Détection de biais, fire drills (A₅)
+Coût de l’arbitre externe K_E A_ext : budget, expertise, accès
+Coût de la réparation D_O Transferts effectifs vers O
+Coût du délai K_T Préjudice accru pendant l’instruction
+Coût des tiers K_P Impact sur les dépendants (P)
+
+Coût total réel :
+
+```
+K_total = K_I + K_D + K_R + K_A + K_E + K_T + K_P + D_O
+```
+
+L’erreur classique
+
+Presque tous les systèmes budgètent D_O (le visible) et oublient K_T, K_P, K_A, K_E (l’invisible). Or K_T et K_P sont souvent supérieurs à D_O sur des affaires longues.
+
+Dans le cas ASU (Snapshot 6), le coût annuel des FNR était de 6,8 M€ — externalisé sur la collectivité, absent du bilan de S. C’est K_T et K_P masqués.
+
+Le principe de comptabilité élargie
+
+Tout coût causé par une décision automatisée doit figurer dans le bilan de l’agent qui l’a prise, même s’il est payé par un tiers.
+
+Sans ce principe, le coût de la justice est structurellement sous-estimé par ceux qui devraient le payer, et structurellement subi par ceux qui ne l’ont pas causé.
+
+---
+
+2. Le financement de A_ext — condition d’indépendance
+
+Le problème
+
+Snapshot 6 a montré : un A_ext sans budget propre est consultatif. Un A_ext financé par S est capturé. Un A_ext financé par O ou P fait payer les victimes.
+
+Il faut un financement qui soit :
+
+· structurel (pas négocié annuellement),
+· autonome (pas sous contrôle de S),
+· indexé sur le risque (que S paie à proportion de ce qu’il cause),
+· sanctionnable (refus de payer → suspension du modèle).
+
+Trois modèles candidats
+
+Modèle A — Redevance algorithmique
+
+Chaque décision automatisée supporte une redevance α, versée dans un fonds autonome dédié à A_ext.
+
+```
+α = f(taux d’erreur observé, criticité du domaine)
+```
+
+Propriétés :
+
+· S paie à proportion du volume et du risque.
+· Le taux est fixé par un organe tiers, pas par S.
+· Le fonds est constitutionnellement sanctuarisé (ring-fenced).
+· Refus de paiement → suspension automatique du modèle.
+
+Modèle B — Assurance obligatoire
+
+S doit souscrire une assurance contre les préjudices algorithmiques. Primes indexées sur le risque. L’assureur indemnise O et finance A_ext.
+
+Propriétés :
+
+· Internalise le coût des erreurs (corrige l’angle mort budgétaire du Snapshot 6).
+· Aligne l’intérêt de S sur la réduction des erreurs.
+· Mais l’assureur peut capturer le régulateur.
+
+Modèle C — Hybride à réassurance publique
+
+· Redevance α finance la structure permanente de A_ext (existence, expertise, fire drills).
+· Assurance privée finance les réparations (D_O).
+· Réassureur public en backstop pour les sinistres systémiques ou catastrophiques.
+· A_ext régule à la fois S et les assureurs.
+
+Le choix retenu
+
+Modèle C, pour trois raisons :
+
+1. Séparation des fonctions : la structure de contrôle ne dépend pas des mêmes flux que l’indemnisation.
+2. Internalisation : S paie pour ses erreurs via ses primes, pas via le budget général.
+3. Anti-capture : le réassureur public empêche la collusion assureurs/opérateurs.
+
+Le point dur
+
+Le fonds de A_ext doit être hors d’atteinte de S, mais aussi hors d’atteinte du politique conjoncturel. Un fonds sanctuarisé signifie :
+
+· budget pluriannuel,
+· gouvernance indépendante,
+· audit externe du fonds lui-même,
+· impossibilité de « ponction » en cas de crise budgétaire.
+
+Sans cette sanctuarisation, A_ext redevient un théâtre dès la première austérité.
+
+---
+
+3. Le paradoxe du coût de transaction
+
+Formulation
+
+Soit :
+
+· d̄ : préjudice moyen par dossier,
+· k̄ : coût procédural moyen par dossier.
+
+Le paradoxe apparaît quand :
+
+```
+k̄ ≥ d̄
+```
+
+Cas concret (ASU) :
+
+Type de dossier Préjudice d̄ Coût k̄ Ratio k̄/d̄
+Refus d’aide alimentaire 240 € 120 € 50 %
+Refus d’hébergement 1 800 € 120 € 7 %
+Rupture de soins 4 200 € 120 € 3 %
+Refus de couverture (petit) 80 € 120 € 150 %
+Contentieux long 12 000 € 3 400 € 28 %
+
+Le paradoxe est structurel : les petits préjudices ont un coût procédural supérieur à leur montant. Le système le plus rigoureux produit l’injustice la plus coûteuse.
+
+La fausse réponse
+
+« On ne répare que ce qui vaut plus que le coût de la réparation. »
+
+Cette réponse est fausse pour trois raisons :
+
+1. Elle traite les petits préjudices comme inexistants — or ce sont souvent les plus fréquents et les plus vitaux (une aide alimentaire refusée peut tuer).
+2. Elle transforme le droit en bien de luxe.
+3. Elle crée une incitation à produire des petits préjudices massifs.
+
+La bonne réponse : justice différenciée par seuils
+
+Seuil Condition Traitement
+d̄ < T₁ Préjudice sous seuil Réparation automatique forfaitaire, sans instruction individuelle
+T₁ ≤ d̄ < T₂ Préjudice modéré Procédure simplifiée
+d̄ ≥ T₂ Préjudice sévère ou atypique Procédure complète
+
+Le seuil T₁ est fixé par A_ext, révisable, publié. Il n’est pas un seuil de dignité — c’est un seuil de mode de traitement. Aucun préjudice n’est déclaré inexistant.
+
+La justice statistique pour les classes homogènes
+
+Pour une classe de préjudices homogènes (ex. : refus d’aide alimentaire dans 14 régions), on ne traite pas 12 000 dossiers individuellement. On :
+
+1. mesure un taux d’erreur ε sur un échantillon,
+2. applique ε × N en réparation forfaitaire,
+3. ouvre la procédure individuelle pour les cas atypiques.
+
+C’est de la justice statistique. Elle n’est pas « approximative » : elle est correcte au niveau de la classe, et réserve la précision individuelle aux cas qui la requièrent.
+
+L’angle mort de la justice statistique
+
+Elle peut masquer des préjudices individuels non représentatifs. Un cas rare, sévère, non capté par la statistique reste sans réparation.
+
+Correctif : clause de sortie statistique. Tout individu peut demander à sortir de la classe et à obtenir une procédure individuelle. Le coût est alors supporté par le fonds — mais il est borné : la sortie n’est pas un droit illimité, elle est plafonnée par A_ext.
+
+---
+
+4. Le seuil d’épuisement économique
+
+Formulation
+
+Soit :
+
+· B : budget total de la fonction vitale (ex. aide sociale d’urgence),
+· D : dépenses de réparation,
+· K : dépenses procédurales,
+· R : ressource restante pour la fonction vitale.
+
+```
+R = B − D − K
+Contrainte : R ≥ Seuil_P
+```
+
+Le système est économiquement épuisé quand :
+
+```
+K + D > B − Seuil_P
+```
+
+Le ratio de procéduralisation :
+
+```
+ρ = K / (K + D)
+```
+
+· ρ → 0 : justice purement matérielle, peu procédurale.
+· ρ → 1 : tout le coût passe dans la procédure, rien dans la réparation.
+· ρ = 0,5 : parité.
+
+Le seuil n’est pas unique
+
+Le ratio acceptable dépend de la gravité du préjudice :
+
+Gravité Exemple ρ* acceptable
+Vital immédiat Vie, survie Élevé (jusqu’à 0,9)
+Vital différé Santé, logement Moyen-élevé (0,7)
+Structurel Revenu, emploi Moyen (0,5)
+Non vital Confort, service Bas (0,2)
+
+La fonction ρ*(h) est croissante avec la gravité. Plus le préjudice est grave, plus on accepte de dépenser en procédure pour le corriger.
+
+Mais elle n’atteint jamais 1. À ρ = 1, toute la ressource passe dans la procédure, et il ne reste rien à réparer ni à protéger. Un système à ρ = 1 ne rend pas la justice : il la mime en consommant la ressource qu’elle devait protéger.
+
+La limite éthique inévitable
+
+Il arrive un moment où :
+
+```
+coût_procédural > valeur_du_préjudice_évité
+```
+
+Le cadre doit alors choisir :
+
+· Réparer quand même : le système se détruit pour une justice symbolique.
+· Ne pas réparer : le système consacre l’injustice pour survivre.
+· Réparer autrement : sortir de la logique individuelle (justice statistique, prévention structurelle, refonte du modèle).
+
+L’aveu que C doit faire
+
+C ne peut pas éviter de mettre un prix sur la vie. Il peut seulement :
+
+1. rendre ce prix explicite (via ρ*(h)),
+2. le rendre contestable (via A_ext),
+3. le rendre révisable (révision annuelle),
+4. refuser de le naturaliser (ce n’est pas un fait, c’est une décision).
+
+Un cadre qui prétend ne pas mettre de prix sur la vie le met en silence, sans le dire, sans le contester, sans le réviser. C’est pire.
+
+---
+
+5. Application au cas ASU
+
+Les chiffres
+
+Poste Montant
+Budget ASU 40 M€
+Seuil_P (fonction vitale) 32 M€
+Marge disponible 8 M€
+D_O estimé (12 000 FNR × 2 400 €) 28,8 M€
+K estimé (procédure complète) 21,6 M€
+K_total 50,4 M€
+Ressource restante si paie tout −10,4 M€
+
+Verdict brut : le système est largement surendetté par rapport à sa marge.
+
+Traitement par seuils
+
+Seuil Population Traitement Coût
+Vital immédiat 3 200 cas Procédure complète 1,4 M€
+Vital différé 5 600 cas Procédure simplifiée 2,1 M€
+Structurel 3 200 cas Justice statistique 0,6 M€
+Petits préjudices (agrégés) Forfait automatique 0,3 M€
+Total K   4,4 M€
+
+Économie réalisée par la différenciation :
+
+```
+K_passi = 21,6 M€
+K_différencié = 4,4 M€
+Économie = 17,2 M€ (79 %)
+```
+
+Réparation
+
+Population D_O
+Vital immédiat (3 200 × 4 200 €) 13,4 M€
+Vital différé (5 600 × 1 800 €) 10,1 M€
+Structurel (statistique) 3,2 M€
+Petits (forfaitaire) 0,8 M€
+Total D 27,5 M€
+
+Contrainte budgétaire
+
+```
+R = B − D − K = 40 − 27,5 − 4,4 = 8,1 M€ > Seuil_P (32 M€) ?
+```
+
+Non : 8,1 M€ < 32 M€. Le système ne peut pas payer intégralement en un an.
+
+Échelonnement sous contrainte
+
+· K : 4,4 M€ sur 18 mois (2,9 M€/an).
+· D : 27,5 M€ sur 4 ans (6,9 M€/an).
+· Total annuel : 9,8 M€/an.
+· Disponible annuel : 8 M€.
+· Déficit annuel : 1,8 M€/an.
+
+Arbitrages possibles
+
+1. Austérité non vitale de S : −4,2 M€/an (suppression dividendes, communication, expansion). Ramène le disponible à 12,2 M€. Résout le déficit.
+2. Redevance algorithmique : S paie α pour financer A_ext. Sort du budget ASU, ne réduit pas D.
+3. Réassurance publique : couvre les sinistres systémiques. Réduit D de 30 %.
+4. Prévention : refonte du modèle (retrait code postal, révision historique). Réduit les FNR futurs de 60 % sur 3 ans. Coût : 2,1 M€ one-shot.
+
+Ratio ρ après optimisation
+
+```
+K = 4,4 M€
+D = 27,5 M€
+ρ = 4,4 / 31,9 = 13,8 %
+```
+
+Très en dessous des seuils critiques (ρ* = 0,5 à 0,9 selon gravité). Le système est économiquement tenable si la procédure est différenciée.
+
+Sans différenciation, ρ = 21,6 / 50,4 = 43 %, et le système s’effondre. La différenciation n’est pas un luxe : c’est la condition de survie de la justice procédurale.
+
+---
+
+6. Les trois paradoxes structurels
+
+Paradoxe 1 — Le coût de la justice croît avec sa rigueur
+
+Plus la procédure est rigoureuse, plus elle coûte. Une procédure parfaite coûte infiniment. C’est pourquoi il faut choisir où mettre la rigueur, pas la maximiser partout.
+
+Corollaire : la justice procédurale est un bien positionnel. Elle doit être concentrée là où elle change quelque chose.
+
+Paradoxe 2 — Le coût de la justice croît avec la vulnérabilité
+
+Les préjudices les plus graves sont souvent les plus coûteux à prouver (personnes précaires, sans documentation, sans accès au droit). Le paradoxe : ceux qui ont le plus besoin de justice sont ceux pour qui elle coûte le plus cher.
+
+Corollaire : le financement doit être progressif. Le fonds de A_ext doit couvrir la représentation des vulnérables, pas seulement l’arbitrage.
+
+Paradoxe 3 — Le coût de la justice est payé par ceux qu’elle protège
+
+Si K est prélevé sur B, alors les bénéficiaires de B financent la justice qui les protège. Ce n’est pas absurde — c’est un investissement. Mais cela signifie que la justice a un coût d’opportunité : chaque euro procédural est un euro non distribué.
+
+Corollaire : K doit être optimisé, pas maximisé. La question n’est pas « combien de justice peut-on se payer ? », mais « quelle justice donne le meilleur rapport entre préjudice évité et coût ? ».
+
+---
+
+7. Mise à jour de C — ΔK_ρ₃ économique
+
+Règle 7.1 — Comptabilité élargie obligatoire
+
+Tout agent (S) qui opère un système automatisé doit déclarer :
+
+· les préjudices causés (D_O),
+· les coûts procéduraux (K),
+· les coûts externalisés (K_T, K_P).
+
+Le défaut de déclaration entraîne présomption de préjudice maximal.
+
+Règle 7.2 — Sanctuarisation du fonds de A_ext
+
+Le fonds de A_ext est :
+
+· alimenté par redevance α sur S,
+· sanctuarisé hors budget de S,
+· gouverné par A_ext lui-même,
+· audité par un tiers indépendant.
+
+Refus de paiement → suspension du modèle.
+
+Règle 7.3 — Différenciation procédurale obligatoire
+
+Toute procédure doit être graduée :
+
+· forfaitaire sous T₁,
+· simplifiée entre T₁ et T₂,
+· complète au-dessus de T₂.
+
+T₁ et T₂ fixés par A_ext, publiés, révisables.
+
+Règle 7.4 — Plafond ρ par gravité
+
+```
+ρ ≤ ρ*(h)
+```
+
+ρ* fixé par gravité du préjudice, publié, révisable. Au-delà, la procédure doit être réduite ou remplacée par une voie statistique.
+
+Règle 7.5 — Clause de sortie statistique
+
+Tout individu inclus dans une classe statistique peut demander une procédure individuelle. La sortie est :
+
+· plafonnée,
+· motivée,
+· tracée,
+· financée par le fonds.
+
+Règle 7.6 — Prévention prioritaire
+
+Si K + D > Seuil_P sur un horizon pluriannuel, une part obligatoire du fonds doit financer la refonte du modèle pour réduire les préjudices futurs. La réparation sans prévention est une fuite en avant.
+
+---
+
+8. Angles morts
+
+Angle mort Traitement Limite
+Assurance capture le régulateur Réassurance publique Le réassureur peut être capturé
+Fonds sanctuarisé mais vidé par austérité Sanctuarisation constitutionnelle Peut être suspendue en « état d’urgence »
+Différenciation crée deux justices Clause de sortie statistique La sortie peut être refusée en pratique
+ρ* devient un outil d’exclusion Publication, contestation Peut être instrumentalisé
+Justice statistique masque des cas individuels Échantillonnage rigoureux Échantillon peut être biaisé
+Prévention repoussée indéfiniment Obligation pluriannuelle Peut être contournée
+Coût réel non mesurable Comptabilité élargie Certains coûts sont incommensurables
+
+Le point critique
+
+Le fonds de A_ext peut être sanctuarisé juridiquement mais détruit politiquement. Une crise, une austérité, un changement de majorité — et la sanctuarisation est levée.
+
+Aucune garantie purement juridique ne résiste à une volonté politique déterminée. La seule garantie structurelle est que A_ext dispose d’un pouvoir de suspension automatique : si le fonds est ponctionné, les modèles de S s’arrêtent. C’est un mécanisme de grève procédurale automatique.
+
+Sans ce mécanisme, la sanctuarisation est déclarative.
+
+---
+
+9. Bilan
+
+Exigence Ce que le Snapshot 7 établit
+Financement de A_ext Redevance + assurance + réassurance, sanctuarisé, suspension automatique
+Paradoxe K ≥ D_O Justice différenciée par seuils + justice statistique
+Seuil d’épuisement ρ ≤ ρ*(h), fonction croissante de la gravité, jamais 1
+Coût du délai Intégré dans le bilan (K_T)
+Coûts externalisés Comptabilité élargie obligatoire
+Prévention Obligation pluriannuelle
+
+Ce que le test démontre
+
+1. La justice procédurale a un coût réel, mesurable, budgétable.
+2. Le coût est supportable si la procédure est différenciée. Non différenciée, elle est destructrice.
+3. L’indépendance de A_ext est une question budgétaire, pas seulement juridique.
+4. Mettre un prix sur la vie est inévitable ; le rendre explicite, contestable, révisable est la seule réponse honnête.
+5. La prévention est économiquement supérieure à la réparation — mais elle est politiquement plus difficile, donc structurellement négligée.
+
+L’aveu final
+
+C ne peut pas garantir une justice complète à coût nul. C peut garantir :
+
+· une justice différenciée (concentrée là où elle compte),
+· une justice financée (par ceux qui causent le préjudice),
+· une justice bornée (par des seuils explicites),
+· une justice préventive (qui réduit les préjudices futurs),
+· une justice contestable (y compris sur ses propres seuils).
+
+Au-delà, c’est la société qui décide combien elle veut payer pour sa justice. C ne décide pas à sa place. Il rend le choix visible.
+
+---
+
+10. Clôture du cycle 1–7
+
+Snapshot Ce qu’il établit
+1 Mourir proprement
+2 Naviguer en terrain hostile
+3 Échouer proprement
+4 Partir proprement
+5 Tenir par transmission
+6 Résister au réel
+7 Payer sans se détruire
+
+Le cycle est maintenant complet dans sa dimension structurelle. Ce qui manque n’est plus un test, c’est une décision politique : qui fixe α, qui nomme A_ext, quel niveau de ρ* est collectivement accepté.
+
+C peut produire les outils. Il ne peut pas produire la volonté.
+
+Un cadre qui sait mourir, naviguer, échouer, partir, se transmettre, résister et compter n’est pas encore un cadre appliqué. Il est un cadre prêt. La suite n’est plus de son ressort.
+
+---
+
+Épreuve suivante possible — Snapshot 8 : test de légitimité politique. Comment un tel cadre est-il adopté, financé, défendu, dans un monde où les acteurs qu’il contraint ont le pouvoir de le refuser ? Ce serait le test de la faisabilité politique de la justice procédurale. Si tu veux, je le rédige — ou nous pouvons clore ici le cycle formel et laisser le politique là où il est : hors du cadre.

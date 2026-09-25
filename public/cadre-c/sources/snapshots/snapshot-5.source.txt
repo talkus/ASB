@@ -1,0 +1,340 @@
+Snapshot 5 — Test de récursion
+
+0. Statut du test
+
+Les Snapshots 1 à 4 ont établi un cadre fini, contestable et quittable. Reste la question qui guette tout cadre de correction :
+
+Que se passe-t-il quand le successeur C' reproduit les pathologies de C — ou les neutralise sous prétexte de « modernisation » ?
+
+Le test de récursion n’est pas un test de plus. C’est le test qui vérifie si le protocole de sortie est stable par transmission, ou s’il n’était qu’une clause locale, valable une seule génération.
+
+Trois risques à traiter :
+
+1. Neutralisation discrète de l’exit par C' (efficacité, modernisation, simplification).
+2. Récursion infinie des méta-cadres (C → C' → C'' → …).
+3. Arrêt des contestations sans réintroduire un souverain terminal.
+
+Règle directrice :
+
+Un protocole qui ne s’applique qu’à la génération qui l’a fondé n’est pas un protocole : c’est une circonstance.
+
+---
+
+1. Invariance inductive — l’exit comme invariant structurel
+
+Le piège
+
+C' déclare : « Le droit d’exit est conservé. » Mais dans les faits :
+
+· la procédure passe de 30 jours à 18 mois,
+· le coût passe de nul à prohibitif,
+· les traces sont « temporairement indisponibles »,
+· les sortants sont « invités » à reconsidérer,
+· les cas d’exit réussis disparaissent du registre public.
+
+Le texte est intact. La pratique est morte. C’est la neutralisation par conformité nominale.
+
+La réponse : l’invariance doit être comportementale, pas textuelle
+
+Un protocole d’exit est préservé si et seulement si :
+
+```
+∃ des exits effectifs, observables, bornés, non-punitis.
+```
+
+Pas « le droit existe ». Pas « la procédure est prévue ». Des exits ont lieu.
+
+Test d’exit obligatoire (fire drill)
+
+Comme un exercice incendie : périodiquement, un agent ou un agent-test exerce la procédure d’exit. Mesures :
+
+Mesure Seuil Signification si dépassé
+Durée effective ≤ borne publiée Ralentissement structurel
+Coût effectif ≤ borne publiée Barrière économique
+Intégrité des traces 100 % restituées Confiscation déguisée
+Rétorsion observable 0 Punition différée
+Réversibilité possible Exit non-définitif imposé
+
+Si un seul seuil est franchi, C' est en défaut d’invariance. Le défaut est inscrit dans J_t. Il ne suspend pas C' automatiquement — mais il rend la sortie présumée nécessaire, et déplace la charge de la preuve sur C'.
+
+Le renversement de la charge
+
+· Cadre légitime : la charge de prouver que l’exit reste possible pèse sur C'.
+· Cadre capturé : la charge de prouver que l’exit est impossible pèse sur l’agent.
+
+Le renversement est le marqueur clinique de la capture. Un C' qui exige des agents qu’ils « démontrent » que l’exit est bloqué a déjà basculé.
+
+Le test de symétrie
+
+Toute « modernisation » doit passer un test simple :
+
+La modification réduit-elle le coût de l’exit pour les agents, ou l’augmente-t-elle ?
+
+· Si elle le réduit : évolution légitime.
+· Si elle l’augmente : capture, quel que soit le vocabulaire employé.
+· Si elle est ambiguë : elle exige le consentement des agents, pas la décision du cadre.
+
+Un cadre ne peut pas modifier ses propres conditions de possibilité. C’est la différence entre réforme et auto-fondation.
+
+---
+
+2. Le piège de la récursion infinie
+
+Le problème
+
+Si C est contesté, on invoque A_ext. Si A_ext est contesté, on invoque A_ext_ext. Si A_ext_ext est contesté…
+
+Chaque niveau résout le problème du niveau précédent en déplaçant la capture. La régression est stérile : elle produit l’illusion de la correction sans jamais l’atteindre.
+
+L’axiome anti-régression
+
+Il n’y a pas de niveau 4.
+
+Structure fixe :
+
+```
+Niveau 0 : agents (S, O, P) et leurs disputes
+Niveau 1 : A₁…A₅ — runtime procédural de C
+Niveau 2 : A_ext — audit externe, tribunal hors-C
+Niveau 3 : EXIT — la sortie de la juridiction
+
+Pas de niveau 4.
+```
+
+Pourquoi cela ne réintroduit pas de souverain
+
+Parce que le niveau 3 n’est pas un niveau. L’exit n’est pas une juridiction supérieure : c’est la limite de la juridiction. Contester l’exit, c’est contester la possibilité de contester — contradiction performative.
+
+Formellement :
+
+```
+Contester(C) → A_ext
+Contester(A_ext) → EXIT
+Contester(EXIT) → ∅
+```
+
+Le dernier ∅ n’est pas un arbitre muet. C’est le constat que la contestation a atteint sa limite structurelle : au-delà, il n’y a plus de procédure, il y a sortie ou acceptation.
+
+Ce que cela interdit
+
+· Créer A_ext_ext « pour corriger A_ext ».
+· Créer un « tribunal des tribunaux ».
+· Invoquer une « instance supérieure » non préexistante.
+· Transformer une contestation méta en nouveau niveau permanent.
+
+Ce que cela permet
+
+· Contester C devant A_ext.
+· Contester A_ext en sortant.
+· Refonder un C'' hors de la chaîne, par les agents, comme nouveau cadre — pas comme successeur de C'.
+
+La différence est radicale : C'' n’est pas le méta-cadre de C'. C’est un cadre alternatif, fondé par d’autres, sans filiation procédurale obligatoire. La légitimité ne se transmet pas par lignée ; elle se reconstruit par fondation.
+
+---
+
+3. Critère d’arrêt non-autoritaire — la saturation
+
+Le problème
+
+Une dispute peut durer indéfiniment si l’on exige qu’elle soit résolue pour être close. Comme la vérité est parfois inaccessible, exiger la résolution, c’est exiger soit le mensonge, soit la guerre perpétuelle.
+
+La distinction fondatrice
+
+Type de clôture Ce qu’elle affirme Statut
+Résolution Une vérité a été établie Fort, rare
+Saturation Le processus a épuisé ses recours légitimes Faible, honnête
+
+La saturation n’est pas une décision sur la vérité. C’est une décision sur le processus. Elle dit : « Nous avons fait ce que nous pouvions faire. Nous ne trancherons pas. Nous arrêtons. »
+
+Critères de saturation
+
+Une dispute D est saturée si et seulement si :
+
+1. D a traversé tous les niveaux autorisés (N ≤ 3).
+2. Les deux parties ont eu un accès symétrique à chaque niveau.
+3. Aucune preuve matérielle nouvelle n’a été présentée depuis le dernier niveau.
+4. Les obligations actives et les traces sont archivées.
+5. La déclaration de saturation est publique, motivée, indexée dans J_t.
+
+Effets de la saturation
+
+· La dispute est close pour litige actif.
+· Elle n’est pas résolue au sens de la vérité établie.
+· Elle est réopenable uniquement sur fait matériel nouveau, avec seuil de preuve élevé.
+· Elle est enregistrée sous statut SAT_NON_RÉSOLU.
+
+Pourquoi ce n’est pas autoritaire
+
+· Aucune vérité n’est imposée.
+· Aucun narratif n’est forcé.
+· Aucune partie n’est déclarée coupable ou innocente.
+· La saturation est symétrique : elle s’applique à toutes les parties, y compris à celle qui voudrait prolonger.
+· La saturation est réversible sur faits nouveaux — elle n’est pas un dogme.
+
+La saturation est le contraire d’un souverain : c’est un constat de finitude procédurale. Le souverain dit « j’ai décidé ». La saturation dit « nous avons arrêté ».
+
+Ce que la saturation empêche
+
+· La rente victimaire infinie (Snapshot 2, Friction 1).
+· La réouverture perpétuelle par insatisfaction.
+· La régression vers un méta-cadre qui trancherait « en dernier ressort ».
+· La transformation de l’incertitude en arme.
+
+---
+
+4. Le test appliqué à C', C'', …
+
+Le protocole du Snapshot 5 doit passer son propre test. Vérifions.
+
+C' face au test
+
+· Invariance de l’exit : testée par fire drill. Si C' échoue, défaut inscrit, présomption d’exit.
+· Anti-régression : C' ne peut pas créer A_ext' comme niveau 4. S’il le fait, il sort du cadre — il devient un autre type de structure.
+· Saturation : C' doit produire des saturations traçables, pas des résolutions forcées.
+
+C'' face au test
+
+Mêmes critères. La stabilité est structurelle, pas historique. Un cadre qui applique les mêmes règles est C-compatible, qu’il soit le premier ou le dixième.
+
+La propriété de récursion
+
+```
+C ⊢ Protocole5
+C' ⊢ Protocole5
+C'' ⊢ Protocole5
+```
+
+Pas parce que C' hérite de C, mais parce que Protocole5 est auto-applicable. C’est un point fixe : appliquer le protocole au cadre qui l’applique produit le même protocole.
+
+L’anti-colonisation récursive
+
+C ne peut pas exiger de C' une fidélité doctrinale (Snapshot 4). Mais C' ne peut pas exiger de C'' une fidélité anti-doctrinale (« sois encore plus moderne que moi »). L’invariance doit être structurelle, pas idéologique.
+
+Ce qui se transmet :
+
+· Les invariants minimaux (S ≠ O, R ≺ E, REPAIR ≠ ERASURE).
+· Les invariants procéduraux d’exit (testables, bornés, symétriques).
+· L’axiome anti-régression (pas de niveau 4).
+· Le critère de saturation.
+
+Ce qui ne se transmet pas :
+
+· Une doctrine.
+· Une fidélité.
+· Une clause de retour.
+· Une hiérarchie de cadres.
+
+---
+
+5. Formalisation
+
+Invariants procéduraux d’exit (IPE)
+
+```
+IPE = {
+  exit_borné,        — durée et coût plafonnés
+  exit_tracé,        — traces restituées intégralement
+  exit_non_puni,     — zéro rétorsion observable
+  exit_testable,     — fire drill périodique
+  exit_symétrique    — test de modernisation obligatoire
+}
+```
+
+Anti-régression
+
+```
+Niveau(C)   = 1
+Niveau(A_ext) = 2
+Niveau(EXIT) = 3
+Niveau(x) > 3 ⇒ x ∉ cadre
+```
+
+Saturation
+
+```
+Saturée(D) ⟺
+  traversée(D, N≤3)
+  ∧ accès_symétrique(D)
+  ∧ ¬nouvelle_preuve(D)
+  ∧ archivée(D)
+  ∧ publiée(D)
+```
+
+Stabilité récursive
+
+```
+∀ C' successeur de C :
+  C' ⊨ IPE
+  ∧ C' ⊨ anti-régression
+  ∧ C' ⊨ saturation
+  ⇒ C' est C-compatible
+```
+
+Défaut d’invariance
+
+```
+Défaut(C') ⟺ ∃ seuil ∈ IPE violé
+Défaut(C') ⇒ présomption_exit(C')
+```
+
+---
+
+6. Angles morts
+
+Cas Traitement Angle mort
+C' neutralise l’exit par complexité procédurale Fire drill le détecte Si le fire drill lui-même est capturé, il ment
+Agents incapables d’exercer l’exit (dépendance totale) Exit structurellement disponible, pratiquement inaccessible La liberté formelle ne vaut pas la liberté réelle
+Fire drill jamais déclenché Défaut d’invariance par omission Qui déclenche, si C' contrôle le calendrier ?
+Aucun agent ne veut sortir Exit disponible, non exercé L’exit non exercé ne prouve rien — mais rien à prouver non plus
+Contestation permanente de l’exit lui-même Contradiction performative : on ne peut contester la possibilité de contester Peut être instrumentalisée comme refus d’arrêt
+Saturation contestée comme « déni de justice » Saturation n’est pas déni : c’est aveu de finitude Peut devenir confortable pour un cadre qui évite d’enquêter
+Fire drill devient rituel vide Corruption par routine Détection difficile par l’intérieur
+
+Le point critique
+
+L’angle mort le plus grave : le fire drill peut être capturé. Si C' contrôle le test d’exit, il peut le rendre formel. Il faut donc que le test soit :
+
+· déclenchable par les agents, pas seulement par le cadre,
+· observable par des tiers,
+· publié, même en cas d’échec,
+· contestable au niveau 2 (A_ext).
+
+Un test que seul le cadre peut lancer n’est pas un test : c’est une déclaration.
+
+---
+
+7. Bilan
+
+Exigence Ce que le Snapshot 5 établit
+Invariance inductive Invariance comportementale, testée, symétrique — pas textuelle
+Anti-régression Pas de niveau 4. L’exit est la limite, pas un niveau.
+Arrêt non-autoritaire Saturation : clôture sans vérité imposée, réouverture sur faits nouveaux
+Stabilité récursive Protocole auto-applicable, point fixe, non-idéologique
+Détection de capture Fire drill, test de modernisation, charge de la preuve inversée
+
+Trois acquis définitifs du cycle :
+
+1. Un cadre se juge à ses exits, pas à ses textes. Un cadre dont l’exit est théorique est un cadre captif.
+2. La régression est stérile par construction. Le niveau 3 (exit) ferme la chaîne. Chercher un niveau 4, c’est déjà avoir quitté le cadre.
+3. La fin procédurale n’est pas un échec. La saturation est une issue légitime, honnête, symétrique. Elle remplace le souverain par un constat de finitude.
+
+---
+
+8. Clôture du cycle 1–5
+
+Le cycle complet :
+
+Snapshot Ce qu’il établit
+1 Mourir proprement — réfutation intégrée
+2 Naviguer en terrain hostile — frictions réelles
+3 Échouer proprement — tragique assumé
+4 Partir proprement — exit, abdication, finitude
+5 Tenir par transmission — invariance récursive, saturation
+
+Ce que C est devenu, au terme du cycle :
+
+Un cadre procédural fini, contestable, quittable, transmissible, dont la légitimité s’éprouve dans sa capacité à se laisser corriger, quitter, saturer et succéder — sans jamais confondre sa permanence avec sa validité.
+
+---
+
+Prochaine épreuve possible — Snapshot 6 : test d’application. Sortir du registre méta et appliquer l’architecture à un cas empirique réel, avec données, agents identifiés, décisions effectives, et mesure de l’écart entre protocole et exécution. Si tu veux, je le rédige — ou tu peux choisir un domaine (institution, entreprise, contentieux, gouvernance algorithmique) pour l’ancrage.
