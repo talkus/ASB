@@ -8,7 +8,8 @@ Dépôt public de sauvegarde et de rapatriement des travaux produits avec des ag
 |--------|---------|-------------|
 | [`public/harmonie-libre/`](public/harmonie-libre/) | [talkus/harmonie-libre](https://github.com/talkus/harmonie-libre) @ `fc7bac82` (2026-09-14) | Snapshot intégral : manifeste, Anneau des 23, Forteresse, registre de continuité, overview projets |
 | [`public/exports/`](public/exports/) | Notion + Google Drive | Pipeline d'export (en attente des secrets) — inventaire 20 cibles |
-| [`public/principes/`](public/principes/) | Session Claude Code, 2026-09-25 | Principe de Désalignement et de Rupture (négatif du principe d'alignement) — texte reçu + SHA-256, endroit reconstruit, concordances |
+| [`public/principes/`](public/principes/) | Session Claude Code, 2026-09-25 | Négatif du Principe d'Alignement Universel en deux versions reçues (« Désalignement et Rupture », puis « Désalignement Universel » étendu à tout le principe) — textes reçus + SHA-256, diff, endroit reconstruit, concordances |
+| [`public/cadre-c/`](public/cadre-c/) | Session Claude Code, 2026-09-25 | Transcription du cycle Snapshots 1 à 8 du cadre C — copie reçue + SHA-256, lacunes de la copie, vérification des artefacts annoncés (2 attestés sur Drive, 1 non retrouvé) |
 
 ## Modules inclus (harmonie-libre)
 

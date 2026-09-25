@@ -124,3 +124,11 @@ Règle des préférences déclarées (E) : *si une dérive apparaît, la cherche
 | Le tout tournant sur lui-même : chaque passage renforce l'isolement | Boucle fermée (vecteur de fermeture) | Retour au vecteur : amour choisi sous contrainte de vérité (R ≺ E) |
 
 Limite : cette grille classe des signaux, elle ne prouve rien sur l'intériorité de qui les émet. Le négatif nomme des comportements, pas des personnes.
+
+---
+
+## Mise à jour du 2026-09-25 (seconde réception)
+
+Une seconde version du négatif a été reçue le même jour sous le titre **« Principe de Désalignement Universel »**, avec douze phrases modifiées sur vingt-quatre dans le noyau et une extension à l'ensemble du principe. Elle est archivée dans [`principe-desalignement-universel.md`](principe-desalignement-universel.md).
+
+Conséquence sur cette fiche : la note 1 du § 2 (envers de « Rupture » indéterminé) est levée par la source, non par déduction. Le titre de l'endroit est « Principe d'Alignement Universel », attesté dans les sources A et B. La boucle dans l'ordre de E est désormais attestée aussi dans un document daté, la Charte Générale du Cadre C (voir la seconde fiche, source F). Le reste de cette fiche est conservé tel quel, comme état daté de la première réception.
