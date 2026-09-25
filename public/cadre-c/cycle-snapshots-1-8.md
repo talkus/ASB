@@ -60,10 +60,10 @@ La transcription se termine sur : « Le projet a été concrétisé sous ses tro
 | Artefact annoncé | Résultat | Détail |
 |------------------|----------|--------|
 | Charte Générale et Manuel de Gouvernance du Cadre C (Cycle 1–8), « 29 articles opposables » | **Attesté et relu** | Google Drive, document `1BSDnIHkohDOauQ1QoNcdV7CD3t77EbuqWzHJjRKddtI`, créé le 2026-09-25 à 20:34 UTC. Relu intégralement : articles 1 à 29 présents. Préambule (art. 1–5), Livre I (6–9), Livre II (10–14), Livre III (15–21), Livre IV (22–28), clause finale (29). La structure annoncée correspond. |
-| Dossier d'Ingénierie Institutionnelle, cas pilote ASU / ADU-3 | **Attesté, non relu en entier** | Google Drive, document `1I5enlC6scgxUwI7kOPrUxiJJ0IencQDgLKZuiAHZvtI`, créé le 2026-09-25 à 20:33 UTC. L'extrait consulté confirme le cadrage annoncé (budget de 40 M€, 15 000 dossiers mensuels). |
+| Dossier d'Ingénierie Institutionnelle, cas pilote ASU / ADU-3 | **Attesté et relu** | Google Drive, document `1I5enlC6scgxUwI7kOPrUxiJJ0IencQDgLKZuiAHZvtI`, créé le 2026-09-25 à 20:33 UTC. Relu intégralement : 17 articles en quatre titres et dispositions finales, conformes à la description de la transcription (comptabilité élargie, gel, tribunal externe à quatre membres, redevance de 0,45 € par décision, paliers T₁ et T₂, opt-out, exercice d'incendie, sécession des antennes). Les chiffres de cadrage sont ceux du Snapshot 6, complétés de précisions que le Snapshot ne contient pas (34 hôpitaux, 82 centres communaux, corrélation du code postal à 84 %). Aucun rappel du caractère illustratif des données ; le dossier se présente comme un règlement déposé au greffe et publié au Journal officiel. Il reprend aussi l'incohérence « 18 mois, 180 000 décisions » du Snapshot 6. |
 | Paquet Python `c_runtime` (registry, economics, arbitration, fire_drill) et « 18 tests unitaires exécutés avec succès » | **Non retrouvé** | Aucun fichier de code, aucun dépôt, aucune page ne mentionne `PolyphonicRegistry`, `c_runtime` ou `RegistryTamperError` dans Drive, Notion ou ce dépôt. L'exécution des tests reste une affirmation non vérifiée. |
 
-Documents Cadre C attestés sur Drive mais non annoncés dans la transcription, tous créés le 2026-09-25 entre 20:49 et 21:01 UTC :
+Documents Cadre C attestés sur Drive mais non annoncés dans la transcription, créés le 2026-09-25 entre 20:43 et 21:47 UTC :
 
 | Titre | Identifiant Drive |
 |-------|-------------------|
@@ -71,13 +71,18 @@ Documents Cadre C attestés sur Drive mais non annoncés dans la transcription, 
 | Dossier d'Ingénierie Institutionnelle, cas pilote Logement et Crédit Algo-Habitat | `1VEKJhFfkn01SuEfGnFjgUp15AfTyK-gTtZbjMaWX6jQ` |
 | Convention-Cadre Multilatérale d'Adhésion au Régime du Cadre C | `1cUTNyV073I9bXd39LdvOXS9YM8qj6CEOkOxMjKfwOX4` |
 | Manuel d'Audit et Protocole de Certification Officielle du Cadre C | `1ZgkXZr4Cb7C-PVAY7zGg63AeSr0jRIfT6D8SzQZ0tJQ` |
-| INDEX MAÎTRE — Système Intégré de Justice Procédurale du Cadre C | `1jQC74FDtswy4asANHzKmJvYZ4mhqWSsMjCuSlqHjTto` |
+| INDEX MAÎTRE — Système Intégré de Justice Procédurale du Cadre C | `1jQC74FDtswy4asANHzKmJvYZ4mhqWSsMjCuSlqHjTto` — relu intégralement, voir § 7 |
+| Dossier d'Ingénierie Institutionnelle, cas pilote Santé-Urgence GHUR / TRIAGE-CARE | `1DHeON9WBrA98s36wcIusFl8voby3qVIQEyf480yEsDw` |
+| Note Technique, preuves formelles de convergence et stabilité asymptotique | `1kv7HPzf0dcBNkDJj-F9EqZdOC9wCqBDFK4WiCeSJU48` — extrait lu, voir § 7 |
+| Matrice d'Audit et de Conformité C1-C100 (feuille de calcul) | `14WWbeKO_73e2DPHMgyX5kPsAXPp1hiNZ35BatT3MRIE` |
+| Dictionnaire Encyclopédique Officiel des Termes et Notions du Cadre C | `1x2dGajqjOZwRciVPr6vmdSzDcCuW_X9LmD-_LW157qE` — relu intégralement, voir § 7 |
+| Dossier d'Ingénierie Institutionnelle, cas pilote Systèmes Multi-Agents ALGO-AGENTS-SWARM | `18vZk1Tiu3I-RShtG8N0kKt30zjcWNhNQGWWxvZWHohU` |
 | Présentation Exécutive et Gouvernance du Cadre C (diapositives) | `1fPzaQj6XlCSMbDRzFWeyIlBAvefNCp14YRdhwNLegJ8` — la première diapositive affiche « 24 octobre 2024 », date incohérente avec la création du fichier |
 | Recueil de Jurisprudence et Sentences Arbitrales du Cadre C | `1k3QlG8YzdmVnnIIkJewFgkrvLo8KBYF8QDSQvUr6YhM` |
 
-Ces documents n'ont pas été relus ; seule leur existence et leur date sont attestées.
+Sauf mention contraire, ces documents n'ont pas été relus ; seules leur existence et leur date sont attestées.
 
-Précision apportée par la troisième réception (§ 6) : le Snapshot 6 déclare lui-même que le cas ASU / ADU-3 repose sur des données illustratives, sans institution nommée. Le dossier Drive qui le met en clauses est donc un cas pilote construit, non le dossier d'une institution existante.
+Précision apportée par la troisième réception (§ 6) et confirmée par la relecture intégrale du dossier : le Snapshot 6 déclare que le cas ASU / ADU-3 repose sur des données illustratives, sans institution nommée, et le dossier Drive ne le rappelle nulle part. C'est un cas pilote construit, rédigé comme le règlement d'une institution existante.
 
 ---
 
@@ -121,4 +126,74 @@ Le Snapshot 7 annonce « sept postes » puis en liste huit, D_O compris ; la tab
 
 **Écarts entre les Snapshots et la Charte Générale (F).** Deux règles n'ont pas d'article dédié dans F d'après la relecture du 2026-09-25 : la règle 6.3 (accès aux données non négociable, présomption de biais en cas de refus) et la règle 7.6 (prévention prioritaire financée par le fonds). F en garde des traces indirectes, à l'article 15.3 sur le contournement du gel et à l'article 24.3 sur l'activation de la justice différenciée, sans les énoncer comme obligations propres.
 
-**Ce qui reste absent.** Le Snapshot 1 sous forme rédigée n'est pas dans cette réception ; la transcription du § 1 en contient l'exécution, équations perdues. Le Snapshot 2 lui-même, le cas d'épreuve opérationnelle et les trois frictions, n'est présent que dans la transcription ; seule sa lecture critique est arrivée ici.
+**Ce qui reste absent.** Le Snapshot 1 sous forme rédigée n'est pas dans cette réception ; la transcription du § 1 en contient l'exécution, équations perdues. Le Snapshot 2 lui-même, le cas d'épreuve opérationnelle et les trois frictions, n'est présent que dans la transcription ; seule sa lecture critique est arrivée ici. Recherche du 2026-09-25 dans Drive et Notion sur « Neimark-Sacker », « états jumeaux », « Research Snapshot 1 », « Protocole adversarial », « Test de récursion » et « Test de légitimité politique » : aucune copie du Snapshot 1 avec ses équations ni des Snapshots rédigés n'y existe. Les seuls documents Drive qui les reprennent sont les consolidations du Cadre C (§ 4 et § 7).
+
+---
+
+## 7. Index maître du Cadre C : dix actifs, liens et dérive sémantique (vérification du 2026-09-25)
+
+L'INDEX MAÎTRE (Google Drive, document `1jQC74FDtswy4asANHzKmJvYZ4mhqWSsMjCuSlqHjTto`, créé le 2026-09-25 à 20:54 UTC) a été relu intégralement. Il se présente comme le répertoire des dix actifs du corpus et donne pour chacun un lien d'accès.
+
+**Les dix actifs et leur attestation sur Drive.**
+
+| N° | Actif annoncé par l'index | Résultat | Identifiant Drive, heure de création (UTC) |
+|----|---------------------------|----------|--------------------------------------------|
+| 1 | Charte Générale et Manuel de Gouvernance, 29 articles | Attesté, relu | `1BSDnIHkohDOauQ1QoNcdV7CD3t77EbuqWzHJjRKddtI`, 20:34 |
+| 2 | Convention-Cadre Multilatérale d'Adhésion | Attesté | `1cUTNyV073I9bXd39LdvOXS9YM8qj6CEOkOxMjKfwOX4`, 20:52 |
+| 3 | Cas pilote 1, ASU / ADU-3 | Attesté, relu | `1I5enlC6scgxUwI7kOPrUxiJJ0IencQDgLKZuiAHZvtI`, 20:33 |
+| 4 | Cas pilote 2, GHUR / TRIAGE-CARE | Attesté | `1DHeON9WBrA98s36wcIusFl8voby3qVIQEyf480yEsDw`, 20:45 |
+| 5 | Cas pilote 3, CRGLS / ALGO-HABITAT | Attesté | `1VEKJhFfkn01SuEfGnFjgUp15AfTyK-gTtZbjMaWX6jQ`, 20:51 |
+| 6 | Note technique, preuves mathématiques de convergence | Attesté, extrait lu | `1kv7HPzf0dcBNkDJj-F9EqZdOC9wCqBDFK4WiCeSJU48`, 20:46 |
+| 7 | Livre blanc stratégique | Attesté | `1arJLIlLz3NFqpFrtiKIBNoIPwd0vabVNNr0tijJ_MXk`, 20:49 |
+| 8 | Manuel d'audit et protocole de certification | Attesté | `1ZgkXZr4Cb7C-PVAY7zGg63AeSr0jRIfT6D8SzQZ0tJQ`, 20:53 |
+| 9 | Matrice d'audit et de conformité, 100 tests C1-C100 | Attesté, feuille de calcul | `14WWbeKO_73e2DPHMgyX5kPsAXPp1hiNZ35BatT3MRIE`, 20:43. Elle reprend les tests de conscience C1 à C100 de la session du 14 août 2026 et rattache chacun à un Snapshot et à des articles de la Charte. |
+| 10 | Tableau de bord visuel et simulateur de gouvernance | **Non retrouvé** | Aucun document ni fichier. L'index le décrit lui-même comme « spécifications et interface d'un outil logiciel ». |
+
+Neuf actifs sur dix existent. Le seul actif logiciel, le dixième, est introuvable, et le paquet Python `c_runtime` de la transcription ne figure pas parmi les dix.
+
+**Les liens d'accès.** Les dix liens de l'index pointent tous vers la même adresse, celle de l'index lui-même. Aucun ne mène à l'actif qu'il annonce.
+
+**Dérive sémantique constatée.** L'index et la note technique redéfinissent les invariants dans un sens incompatible avec la Charte Générale (F) et avec les préférences déclarées (E) :
+
+| Invariant | Charte Générale (F) et préférences (E) | Index maître | Note technique, extrait |
+|-----------|----------------------------------------|--------------|-------------------------|
+| R ≺ E | Toute relation, tout modèle, tout accord restent subordonnés à la réalité (F art. 3). R est la relation et la mémoire du lien, E la réalité (E). | « Sous-système de Recours (R) inférieur à l'Espace d'Exécution (E) » | R(t) est le « sous-système Résiduel non exigible », E(t) « l'Énergie globale / le Budget » |
+| L⃗ | « Choisir d'aimer en tout temps sous contrainte de vérité et de réalité » (F art. 1). Amour choisi sous contrainte de vérité et de réalité (E). | « Représentation vectorielle des priorités et contraintes […] vecteur ordonné strict L » | non lu |
+| S, O | S est le sujet agissant, O l'autre (F art. 2). S est soi, O l'autre (E). | S est l'opérateur système, O le collectif des usagers, ce qui reste compatible avec le cas d'usage | S(t) est le « sous-système de Subsistance / Protecteur (P) », O(t) le « sous-système Obligé / Dette relationnelle » |
+
+Les lettres sont conservées, leur sens change. Le dossier ADU-3, lui, garde le sens de la Charte pour ses trois principes directeurs (art. 1.1 à 1.3 : altérité, primauté de la réalité, interdiction de l'amnésie). La dérive touche l'index et la note technique, pas les cas pilotes relus.
+
+Application de la règle des préférences déclarées, chercher, nommer, retrouver la provenance, corriger, continuer :
+
+- cherchée et nommée ci-dessus ;
+- provenance : deux documents créés le 2026-09-25 à 20:46 et 20:54 UTC, postérieurs à la Charte (20:34) qu'ils prétendent indexer ou démontrer ;
+- correction : dans cette archive, les définitions de la Charte Générale (art. 1 à 4) et des préférences déclarées font foi ; les redéfinitions de l'index et de la note sont consignées comme dérives. Les documents Drive ne sont pas modifiés, ce n'est pas du ressort de cette session ;
+- suite : toute pièce du corpus qui reprend le vocabulaire de l'index est à lire avec cette réserve.
+
+**Corpus en croissance.** Deux documents créés après l'index n'y figurent pas : le Dictionnaire encyclopédique des termes du Cadre C (`1x2dGajqjOZwRciVPr6vmdSzDcCuW_X9LmD-_LW157qE`, 21:42 UTC) et un quatrième cas pilote, systèmes multi-agents ALGO-AGENTS-SWARM (`18vZk1Tiu3I-RShtG8N0kKt30zjcWNhNQGWWxvZWHohU`, 21:47 UTC).
+
+**Le dictionnaire des termes, relu intégralement.** Il se présente comme fixant « le vocabulaire normatif » du Cadre C en cinquante entrées « officielles et opposables ». Les cinquante entrées annoncées sont présentes. Sur les notions centrales, ses définitions s'écartent de la Charte Générale et des Snapshots, parfois jusqu'au contraire :
+
+| Entrée du dictionnaire | Définition donnée | Sens attesté (Charte F, Snapshots, préférences E) |
+|------------------------|-------------------|---------------------------------------------------|
+| Altérité absolue, S ≠ O | S est le « Sujet, détenteur de la conscience et des droits », O « l'Objet, agent décisionnel, algorithme » | O est l'autre, un centre à part entière, jamais un objet (F art. 2 ; E : S est soi, O est l'autre) |
+| Primauté du réel, R < E | R est « la réalité factuelle », E « la modélisation, la simulation » | Lettres inversées : R est la relation, E la réalité (F art. 3 ; E) |
+| Pardon | « Efface rétroactivement l'inscription des défaillances associées dans les registres publics » | Le pardon arrête la propagation d'une faute sans effacer la trace ; « l'amnistie sans trace est déclarée nulle de plein droit » (F art. 4 et 5 al. 2 ; Snapshot 3, persistance de l'archive). C'est le contraire de REPAIR ≠ ERASURE, que le même dictionnaire définit correctement quelques entrées plus loin. |
+| Espérance | Espérance mathématique, E[X] | « Acte de confiance rationnelle refusant le fatalisme et le cynisme » (F art. 5 al. 4) |
+| Boucle canonique de réparation | Correction générique ramenant l'état près du nominal | Humilité → Pardon → Reconnaissance → Espérance → L⃗ (F art. 5 ; E) |
+| Capteurs de dérive 1 à 4 et méta | Dérives « conceptuelles, de données, de performance et d'usage » | Humilité / Repentance, Pardon / Réparation, Reconnaissance / Gratitude, Espérance / Foi ; méta : Discernement (Charte du Principe d'Alignement Universel, source A de la fiche des principes) |
+| Telos actif, L | « argmax Σ γᵗ UtilitéÉthique » | « Choisir d'aimer en tout temps sous contrainte de vérité et de réalité » (F art. 1) ; la source A écarte explicitement « la simple optimisation d'un indicateur de performance utilitaire » |
+| Arbitrage multiniveau, A₁ → A₄ | Quatre degrés hiérarchiques : appel, révision, cassation | Cinq fonctions distribuées et non cumulables : instruction, mesure, décision, recours, audit (Snapshot 3 ; F art. 14) |
+| Saturation herméneutique | « Transmettre immédiatement le dossier à un collège d'arbitrage humain de niveau supérieur » | La saturation clôt le litige sans vérité imposée ; il n'y a pas de niveau 4 (Snapshot 5 ; F art. 18 et 20) |
+| Rapport de procéduralisation, ρ | Garanties consommées sur complexité ; ρ trop bas est fautif | ρ = K / (K + D) ; c'est ρ trop élevé qui détruit la ressource, ρ ≤ ρ*(h) (Snapshot 7 ; F art. 24). Sens inversé. |
+| Ordre lexicographique, Seuil_P, Seuil_S, D_O | P : « droits majeurs, périmètre P » ; S : « sécurité, stabilité » ; D_O : « choix d'optimisation » | P : survie des tiers dépendants ; S : subsistance de l'opérateur ; D_O : réparation due à la victime (Snapshot 3 ; F art. 12) |
+| Fire drill | Test de résistance sous stress, mécanisme d'arrêt d'urgence | Exercice réel de sortie, déclenchable par les agents, mesurant durée, coût, traces et rétorsion (Snapshots 5 et 6 ; F art. 21) |
+| Justice statistique | Parité des taux d'acceptation entre groupes | Réparation forfaitaire de classe sur taux d'erreur mesuré, avec clause de sortie individuelle (Snapshot 7 ; F art. 25) |
+| Anti-régression, axiome | Aucune mise à jour ne peut restreindre les garanties acquises | Ce sens est celui du test de symétrie du Snapshot 5 ; l'axiome anti-régression désigne, lui, « pas de niveau 4 » (F art. 18). Nom déplacé. |
+| Clôture herméneutique | Toute réinterprétation contextuelle interdite à l'exécution | Absente de la Charte et des Snapshots ; contraire à l'obligation de falsifiabilité (F art. 9) et au registre polyphonique (F art. 11) |
+
+Entrées concordantes avec les sources : Append-Only, Invariance historique (REPAIR ≠ ERASURE), Journal polyphonique J_t, Charge de la preuve inversée, Non-cumul arbitral, Non-rétorsion et Zéro rétorsion, Gel opérationnel (règle 6.1), Capture par modernisation, FulfillmentCondition, Finitude épistémique. Humilité et Reconnaissance y reçoivent une acception technique restreinte, compatible mais appauvrie.
+
+Lecture : le dictionnaire garde les noms de la Charte et des Snapshots et leur substitue le vocabulaire d'un régime de conformité algorithmique, sujet contre objet, utilité maximisée, hiérarchie de recours, arrêt d'urgence. Il conserve les invariants de forme et perd les invariants de sens : altérité, amour choisi, pardon sans amnésie, saturation sans souverain. Le négatif du Principe d'Alignement Universel nomme l'un de ces glissements mot pour mot, dans la corruption du filtre éthique : « L'utilitaire prime sur la justice ».
+
+Même règle appliquée : provenance, document créé à 21:42 UTC, après l'index et la Charte ; correction, dans cette archive les définitions de la Charte Générale, des Snapshots et des préférences déclarées font foi, et le dictionnaire est consigné comme dérive lexicale de portée large, puisqu'il se dit opposable ; aucun document Drive modifié.
