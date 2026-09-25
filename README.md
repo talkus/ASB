@@ -8,6 +8,7 @@ Dépôt public de sauvegarde et de rapatriement des travaux produits avec des ag
 |--------|---------|-------------|
 | [`public/harmonie-libre/`](public/harmonie-libre/) | [talkus/harmonie-libre](https://github.com/talkus/harmonie-libre) @ `fc7bac82` (2026-09-14) | Snapshot intégral : manifeste, Anneau des 23, Forteresse, registre de continuité, overview projets |
 | [`public/exports/`](public/exports/) | Notion + Google Drive | Pipeline d'export (en attente des secrets) — inventaire 20 cibles |
+| [`public/principes/`](public/principes/) | Session Claude Code, 2026-09-25 | Principe de Désalignement et de Rupture (négatif du principe d'alignement) — texte reçu + SHA-256, endroit reconstruit, concordances |
 
 ## Modules inclus (harmonie-libre)
 

@@ -36,3 +36,15 @@ Seul le travail original (`harmonie-libre`) est archivé dans ce dépôt.
 Pipeline ajouté sous `tools/export/`. Exécution sans secrets → statut `blocked_auth` pour les 20 cibles (voir `public/exports/manifest/EXPORT_MANIFEST.md`).
 
 Secrets requis pour un export réel : `NOTION_TOKEN`, `GOOGLE_SERVICE_ACCOUNT_JSON` ou `GOOGLE_OAUTH_TOKEN_JSON`.
+
+## Principes (2026-09-25)
+
+| Champ | Valeur |
+|-------|--------|
+| Fichier | `public/principes/principe-desalignement-rupture.md` |
+| Source brute | `public/principes/sources/principe-desalignement-rupture.source.txt` |
+| SHA-256 (source brute) | `b9c2bceb74648eee01177d0b5718329788834123f1313beb93483d081705aaff` |
+| Origine | Texte fourni par l'utilisateur en session Claude Code (branche `claude/desalignement-rupture-7tb12k`), présenté comme « inversion sémantique terme à terme » du principe d'alignement |
+| Date de réception | 2026-09-25 |
+
+Le texte positif d'origine n'a pas été retrouvé verbatim (dépôt, Notion, Google Drive consultés le 2026-09-25). L'endroit inclus dans la fiche est une **reconstruction analytique**, signalée comme telle ; les concordances renvoient aux sources apparentées attestées (Charte du Principe d'Alignement Universel et version pédagogique sur Drive, CONDITIONS_ALIGNEMENT sur Drive, Forteresse dans ce dépôt).
