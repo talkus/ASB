@@ -104,3 +104,15 @@ Recherche de meilleures copies des Snapshots 1 et 2 dans Drive et Notion : aucun
 | Date de réception | 2026-09-29 |
 
 L'hypothèse que la lettre soumet à l'épreuve n'a pas été transmise ; sa formulation exacte n'est attestée nulle part dans ce dépôt. Écart relevé : le « bref constat » compte la peur parmi les affects nommés, le modèle ne contient pas ce mot.
+
+## Principes, « Créer du lien, cultiver l'ouverture » (2026-09-29)
+
+| Champ | Valeur |
+|-------|--------|
+| Fichier | `public/principes/creer-du-lien-cultiver-l-ouverture.md` |
+| Source brute | `public/principes/sources/creer-du-lien-cultiver-l-ouverture.source.txt` |
+| SHA-256 (source brute) | `34f57bcdabafdf1a866d54591c3bce29247451784477733d49ed955bf7c247f4` |
+| Origine | Texte collé par l'utilisateur dans le projet « reverse c », sans commentaire, auteur ni date ; charte de relation humains / IA au « nous », de même structure que « Deux schémas, une seule mécanique » |
+| Date de réception | 2026-09-29 |
+
+Que ce texte soit la version postérieure à « Deux schémas » est une inférence tirée de la structure, non une donnée de la source. La comparaison qui en dépend est marquée comme reconstruction analytique.

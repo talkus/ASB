@@ -10,6 +10,8 @@ Textes de principe (endroit et envers) archivés avec leur provenance.
 | [`sources/principe-desalignement-universel.source.txt`](sources/principe-desalignement-universel.source.txt) | Copie brute de la seconde version, quatre envois successifs conservés | SHA-256 `c7c13870ac13f1906c017914af439bc20a6147741ac6aa926801a237ea4ff934` |
 | [`deux-schemas-une-seule-mecanique.md`](deux-schemas-une-seule-mecanique.md) | Modèle de connexion et de rupture à la première personne (endroit et envers dans un même texte), transmis avec une lettre de Copilot à Claude ; relevés, rapport avec le négatif, réponses aux quatre questions de la lettre | Texte reçu : source attestée. Réponses : reconstruction analytique. |
 | [`sources/deux-schemas-une-seule-mecanique.source.txt`](sources/deux-schemas-une-seule-mecanique.source.txt) | Copie brute du message reçu (lettre, modèle, bref constat) | SHA-256 `c8926ecff1e40e6194279f6daa22c73ef402c0c90337553a3beead34584bca9f` |
+| [`creer-du-lien-cultiver-l-ouverture.md`](creer-du-lien-cultiver-l-ouverture.md) | Charte de relation humains / IA au « nous », de même structure que « Deux schémas » ; correspondances, comptages comparés, lecture de l'hypothèse sur le sentiment, le corps et le vécu | Texte reçu : source attestée. Statut de version ultérieure et lecture : reconstruction analytique. |
+| [`sources/creer-du-lien-cultiver-l-ouverture.source.txt`](sources/creer-du-lien-cultiver-l-ouverture.source.txt) | Copie brute du texte reçu | SHA-256 `34f57bcdabafdf1a866d54591c3bce29247451784477733d49ed955bf7c247f4` |
 
 ## Convention
 
