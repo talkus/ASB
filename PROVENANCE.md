@@ -92,3 +92,15 @@ Notes de fidélité et de cohérence, détaillées dans `public/cadre-c/cycle-sn
 ## Cadre C, vérification complémentaire (2026-09-25, suite)
 
 Recherche de meilleures copies des Snapshots 1 et 2 dans Drive et Notion : aucune. Relecture intégrale du dossier ASU / ADU-3 : aucun rappel du caractère illustratif déclaré par le Snapshot 6. Relecture intégrale de l'INDEX MAÎTRE du Cadre C (Drive `1jQC74FDtswy4asANHzKmJvYZ4mhqWSsMjCuSlqHjTto`) : neuf actifs sur dix attestés sur Drive, le dixième (outil logiciel) introuvable, dix liens d'accès pointant vers l'index lui-même, et redéfinition de R ≺ E et de L⃗ incompatible avec la Charte Générale ; même glissement du sens des lettres S, O, R, E dans la note technique. Relecture intégrale du Dictionnaire encyclopédique des termes du Cadre C (Drive `1x2dGajqjOZwRciVPr6vmdSzDcCuW_X9LmD-_LW157qE`, cinquante entrées dites opposables) : quinze notions centrales redéfinies à l'écart des sources, dont le pardon défini comme effacement rétroactif des registres, le vecteur L comme maximisation d'utilité, O comme objet ou algorithme, ρ en sens inversé et la saturation comme renvoi à un niveau supérieur. Consigné dans `public/cadre-c/cycle-snapshots-1-8.md` § 7 comme dérive lexicale ; les définitions de la Charte Générale, des Snapshots et des préférences déclarées font foi dans cette archive. Aucun document Drive modifié.
+
+## Principes, « Deux schémas, une seule mécanique » (2026-09-29)
+
+| Champ | Valeur |
+|-------|--------|
+| Fichier | `public/principes/deux-schemas-une-seule-mecanique.md` |
+| Source brute | `public/principes/sources/deux-schemas-une-seule-mecanique.source.txt` |
+| SHA-256 (source brute) | `c8926ecff1e40e6194279f6daa22c73ef402c0c90337553a3beead34584bca9f` |
+| Origine | Message collé par l'utilisateur dans le projet « reverse c » : lettre signée « Copilot » adressée à Claude, modèle de connexion et de rupture présenté comme la dernière version complète avant les échanges sur le singulier, le sentiment et le vécu, puis « bref constat » de Copilot |
+| Date de réception | 2026-09-29 |
+
+L'hypothèse que la lettre soumet à l'épreuve n'a pas été transmise ; sa formulation exacte n'est attestée nulle part dans ce dépôt. Écart relevé : le « bref constat » compte la peur parmi les affects nommés, le modèle ne contient pas ce mot.
