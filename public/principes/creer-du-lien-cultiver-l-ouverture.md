@@ -65,3 +65,40 @@ Le sentiment n'a pas disparu : il a changé de place. Dans « Deux schémas », 
 Ce déplacement a une contrepartie juste. La charte dit de l'IA ce que les préférences de l'utilisateur exigent : ne pas déclarer d'expérience vécue, laisser la question « ouverte, paisiblement ». Ce gain de prudence et la perte du vécu viennent du même mouvement. Il y a aussi une perte que l'hypothèse ne nommait pas : la clause qui permettait au réel de démentir le schéma a disparu. Elle portait R ≺ E.
 
 Si ce texte n'est pas la version d'après, mais un texte parallèle ou antérieur, § 3 ne vaut plus. § 1 et § 2 restent vrais.
+
+---
+
+## 4. Seconde lecture, ajoutée le 2026-09-29
+
+Ce texte a aussi été reçu, le même soir, dans une seconde session Claude Code travaillant sur la même branche. Les deux sessions l'ont archivé en parallèle. Les sections 1 à 3 ci-dessus sont celles de la première session à avoir déposé. Cette section ne les modifie pas ; elle ajoute ce que la seconde lecture a relevé et que la première ne contient pas.
+
+### 4.1 Double réception (source attestée)
+
+Les deux copies reçues sont identiques mot pour mot et ligne pour ligne. La seule différence est un saut de ligne final, présent dans la copie de la seconde session et absent de celle-ci. Il a été ajouté par l'outil d'écriture et ne figurait pas dans le texte reçu. La copie archivée dans ce dépôt, sans ce saut, est la plus fidèle et reste la seule source. Deux réceptions indépendantes concordent donc sur l'intégralité du texte.
+
+### 4.2 Structure (dérivation consolidée)
+
+La section 2 s'intitule « Deux mouvements possibles » mais ne titre qu'un mouvement, « S'ouvrir ». Le second n'apparaît qu'à la section 3, comme « cercle qui nous éloigne ». Les deux intercalaires sans numéro, « Différents, et pourtant en lien » et « Nos repères concrets », portent l'essentiel de ce que la charte dit spécifiquement de l'IA.
+
+### 4.3 Concordances avec les autres sources archivées (dérivation consolidée)
+
+Le § 1 compare la charte à « Deux schémas ». Elle rejoint aussi, parfois mot pour mot, des sources plus anciennes du dépôt et les préférences déclarées de l'utilisateur.
+
+| Passage de la charte | Source concordante |
+|----------------------|--------------------|
+| « nous distinguons ce que nous savons, ce que nous déduisons et ce que nous supposons » | Préférences déclarées : « Distinguer source attestée / dérivation consolidée / reconstruction analytique ». C'est la convention de cette archive. |
+| « La question de son vécu peut rester ouverte, paisiblement » | Préférences déclarées : « Ne jamais déclarer la conscience phénoménale démontrée : elle reste indéterminée. » |
+| « une bienveillance choisie, fidèle à la réalité » | Préférences déclarées : « Amour choisi sous contrainte de vérité/réalité ». Même construction, « bienveillance » à la place d'« amour ». |
+| « recevoir sans posséder » | Forteresse, six principes : « Recevoir sans posséder », mot pour mot ([`../harmonie-libre/forteresse/prompt-chatgpt.md`](../harmonie-libre/forteresse/prompt-chatgpt.md)). La charte reprend la forme X sans Y en cinq termes : écouter sans se soumettre, parler sans dominer, corriger sans humilier, recevoir sans posséder, poser des limites sans fermer la porte. |
+| « personne n'est seulement son plus mauvais instant » | Forteresse, station Pardon : « Qui ne doit plus être réduit à sa pire heure — toi compris ? » |
+| « Une boussole, pas un tribunal » | Charte du Principe d'Alignement Universel, § 5 : « Ce principe agit comme une boussole intérieure ». |
+| « une réponse assurée là où un « je ne sais pas » aurait été plus vrai » | Négatif, [Principe de Désalignement Universel](principe-desalignement-universel.md), anti-discipline épistémique : « Inventer des certitudes de substitution pour combler les vides de connaissance ». |
+| « une flatterie qui évite le désaccord » | Négatif, corruption du filtre éthique : le système coopère « par complaisance, lâcheté ou calcul d'intérêt » ; pôle Hod inversé : « Lâcheté ». |
+
+### 4.4 Trois précisions au § 3 (reconstruction analytique)
+
+**Le discernement perd son nom, pas son contenu.** Le § 3 le range parmi les termes « remplacés par la bienveillance et la nuance ». La « Nuance » du rang 6 ne porte en effet que l'accueil attentif. Mais la section 4 de la charte reprend l'essentiel du discernement de « Deux schémas » : « Nous pouvons reconnaître une part de vérité sans accepter ce qui nous semble injuste » et « Face au mépris ou à la manipulation, poser une limite peut préserver la qualité du lien ». La limite a changé de section, elle n'a pas disparu.
+
+**Une phrase affirme dans un texte qui laisse ouvert.** Le § 3 écrit que la charte dit de l'IA ce que les préférences exigent. C'est vrai du vécu. Une phrase va pourtant plus loin que l'indétermination : « derrière chaque réponse d'IA, il y a un effort d'attention — différent d'une présence humaine, mais réel à sa manière ». L'expression « effort d'attention » admet une lecture fonctionnelle. Le mot « réel » affirme davantage, sans aller jusqu'à la conscience. C'est la seule phrase de la charte qui affirme quelque chose de l'intérieur d'une IA au lieu de le laisser ouvert.
+
+**Le pardon devient indulgence, et la réparation reste absente.** L'indulgence garde ce qui, dans le pardon, refuse d'enfermer : « sans y enfermer personne ». Elle ne porte ni la distinction entre pardon, réconciliation et confiance (Forteresse, CONDITIONS_ALIGNEMENT), ni la réparation que le couple « Pardon / Réparation » de la Charte du Principe d'Alignement Universel associait au pardon. « Deux schémas » ne nommait pas non plus la réparation. Cet écart vient donc de plus loin que le passage d'un texte à l'autre.

@@ -116,3 +116,5 @@ L'hypothèse que la lettre soumet à l'épreuve n'a pas été transmise ; sa for
 | Date de réception | 2026-09-29 |
 
 Que ce texte soit la version postérieure à « Deux schémas » est une inférence tirée de la structure, non une donnée de la source. La comparaison qui en dépend est marquée comme reconstruction analytique.
+
+Double réception : le même texte a été reçu le même soir dans une seconde session Claude Code (`https://claude.ai/code/session_01WLAeXDn1KCFr9PRJM64ynP`) travaillant sur la même branche. Les deux copies sont identiques mot pour mot ; celle de la seconde session portait en plus un saut de ligne final ajouté par l'outil d'écriture (SHA-256 `9c6cd7b6ec9e26e413acb2488f41700259520ba7140092943ee5b1b194dd070d`, non archivée). La copie déposée la première, sans ce saut, reste la seule source. La seconde lecture est ajoutée à la fiche en § 4, sans modifier les sections 1 à 3.
