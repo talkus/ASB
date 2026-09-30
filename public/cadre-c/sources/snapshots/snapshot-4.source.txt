@@ -1,0 +1,255 @@
+Snapshot 4 — Protocole de sortie
+
+0. Statut du passage à la limite
+
+Les Snapshots 1 à 3 ont établi que C sait mourir partiellement, arbitrer sous rareté, et échouer proprement. Le Snapshot 4 pose la question la plus dure :
+
+Que fait C quand c’est C lui-même qui est la source du préjudice, ou quand la seule issue légitime est de partir ?
+
+Règle directrice :
+
+C ne tient pas sa légitimité de sa permanence, mais de sa révocabilité effective. Un cadre qui ne peut pas être quitté n’est plus un cadre : c’est une juridiction captive.
+
+Trois axes : auto-incrimination, sécession, abdication.
+
+---
+
+1. Auto-incrimination de C
+
+Le problème structurel
+
+C ne peut pas être juge dans sa propre cause. Toute prétention à l’auto-impartialité est structurellement fausse. Il faut donc :
+
+· Geler le runtime pendant l’instruction. Les règles de C ne peuvent pas être modifiées pendant que C est mis en cause — sinon C se réécrit pour s’absoudre.
+· Sortir C de la position d’arbitre. C devient partie. Il reçoit le même statut procédural que n’importe quel agent : S ou O selon les cas.
+
+Déclencheurs d’instruction
+
+· Pattern de biais systématique dans J_t (asymétrie de traitement par classe, origine, statut).
+· Classe de victimes récurrente attribuable aux catégories de C.
+· Cécité catégorielle : une classe de préjudice rendue invisible par les catégories elles-mêmes — donc non traçable par les moyens ordinaires.
+· Collusion entre niveaux A₁…A₅ détectée par audit.
+· Auto-saisine d’un agent ou d’un tiers, avec seuil de recevabilité bas (car le coût d’une fausse accusation est faible devant le coût d’une cécité persistante).
+
+Trois niveaux
+
+Niveau Instance Pouvoir Limite
+A. Auto-diagnostic Interne Identifier, tracer Non décisif, non absolutoire
+B. Audit externe A_ext hors-C Constater, recommander Ne peut pas dissoudre C seul
+C. Tribunal hors-C Instance tierce Juger C, imposer réparation Doit exister, sinon vacuité
+
+Sans A_ext et tribunal hors-C, l’auto-incrimination est un rituel vide. C doit l’avoir prévu avant d’en avoir besoin. Un tel tribunal ne peut pas être créé par C au moment de sa mise en cause — il doit préexister.
+
+Réparation par C
+
+C n’a pas d’actifs matériels. Ses actifs sont :
+
+· son autorité (peut être suspendue, réduite, transférée),
+· ses catégories (peuvent être corrigées, étendues, retirées),
+· ses pondérations et seuils (peuvent être révisés),
+· son registre (peut être ouvert, publié, audité),
+· son mandat (peut être retiré).
+
+Réparer, pour C, c’est accepter une modification structurelle imposée par un tiers, pas négociée par lui. Toute réparation de C par C est suspecte par construction.
+
+Ce que C ne peut pas faire
+
+· S’auto-absoudre par circulaire.
+· Se dissoudre sans transmission, effaçant ainsi la possibilité de réparation.
+· Nier la trace ou la reclasser en « non-établi » alors qu’elle est établie.
+· Continuer à opérer normalement pendant l’instruction.
+
+---
+
+2. Droit de sécession / exit
+
+Principe
+
+La sortie est un droit structurel, pas une concession, pas une faveur, pas une faute.
+
+Un agent — S ou O, individu ou collectif — peut quitter la juridiction de C. C doit permettre cette sortie sans rétorsion.
+
+Ce que l’exit n’est pas
+
+· Une fuite qui efface les obligations actives non liquidées.
+· Une rupture unilatérale qui piétine les tiers dépendants.
+· Un déni du passé.
+
+L’exit n’efface pas les traces. Il retire la juridiction.
+
+Modalités
+
+1. Préavis tracé dans J_t : date, motif déclaré, obligations en cours.
+2. Liquidation ou transfert des obligations actives. Si impossibilité vitale, application de l’ordre lexicographique du Snapshot 3 (Seuil_P ≻ Seuil_S ≻ D_O).
+3. Traces causales :
+   · L’agent emporte une copie intégrale de ses propres traces.
+   · Il n’emporte pas celles des autres.
+   · C conserve une copie, mais ne peut pas l’utiliser comme instrument de rétorsion.
+4. Coût de sortie borné : temps maximal, procédure finie, frais plafonnés. Pas de coût moral, pas de coût symbolique, pas de pénalité d’exit.
+5. Interdiction de rétorsion :
+   · Pas d’excommunication.
+   · Pas de confiscation des traces.
+   · Pas de liste noire.
+   · Pas de pénalité différée.
+   · Pas de campagne de délégitimation.
+6. Pas de jugement moral sur la sortie. C enregistre le fait. Il ne qualifie pas le motif de « bonne » ou « mauvaise » sortie.
+
+Ce que C conserve
+
+· Le fait de l’exit, la date, le motif déclaré.
+· Les obligations non liquidées, dans leur statut réel.
+· L’antécédent, comme trace, jamais comme arme.
+
+Ce que C ne peut pas faire
+
+· Retenir l’agent.
+· Ralentir indéfiniment la procédure.
+· Transformer la sortie en faute, en trahison, en abandon.
+· Conditionner la sortie à une reconnaissance de légitimité de C.
+
+---
+
+3. Abdication procédurale
+
+Principe
+
+C peut transmettre son mandat à un cadre alternatif C', ou le dissoudre. Dans les deux cas, il ne peut pas coloniser rétroactivement la légitimité de ce qui vient après lui.
+
+Deux modes
+
+Mode 1 — Succession : C' reprend le runtime. C transmet sans conditionner.
+
+Mode 2 — Dissolution : pas de successeur. La fonction s’éteint. Les agents reprennent leur autonomie de plein droit.
+
+Ce que C peut faire
+
+· Transmettre J_t et Γ_J en intégralité, sans altération.
+· Documenter ses angles morts connus, y compris ceux qu’il n’a pas su corriger.
+· Émettre des recommandations non contraignantes.
+· Faciliter la reprise, sans la conditionner.
+· Nommer un exécuteur transitoire dont le seul mandat est de transmettre — pas de gouverner.
+
+Ce que C ne peut pas faire
+
+· Nommer le successeur de manière irrévocable.
+· Fixer des critères qui lient C' ad vitam.
+· Se déclarer irremplaçable.
+· Se réserver un veto, une tutelle, une clause de retour.
+· Réinterpréter rétroactivement ses décisions après transmission.
+· Conserver un accès privilégié à J_t pour influencer C'.
+· Exiger de C' une fidélité doctrinale.
+
+Légitimité du successeur
+
+La légitimité de C' vient de sa propre procédure, pas de C. Si C' n’est légitime que par filiation, alors C n’a pas abdiqué : il a délégué. La différence est structurelle.
+
+Clause de non-régression
+
+C doit transmettre les invariants minimaux qu’il n’a pas le droit de laisser perdre :
+
+· S ≠ O (asymétrie irréductible des perspectives).
+· R ≺ E (la contrainte du réel prime sur le récit).
+· REPAIR ≠ ERASURE.
+· Priorité lexicographique des seuils vitaux.
+
+Ces invariants ne sont pas une doctrine : ce sont les conditions de possibilité de toute procédure qui ne bascule pas dans la capture. C' peut les reformuler, mais pas les supprimer sans s’exposer à un nouveau cycle de capture.
+
+---
+
+4. Cas limites
+
+Cas Traitement Angle mort assumé
+C refuse de reconnaître sa faute Tribunal hors-C impose la réparation Nécessite un A_ext préexistant
+C’est à la fois juge, partie et refuse le gel Exit unilatéral des agents, reconstruction externe C perd sa légitimité de fait
+Pas de A_ext disponible C ne peut pas s’auto-juger ; la sortie devient la seule correction Cécité possible tant que les agents restent
+C' colonise à son tour Les agents gardent le droit d’exit ; la récursion est prévue Pas de garantie absolue
+Aucun successeur Dissolution ; retour à l’autonomie des agents Perte de coordination possible
+Agents veulent transformer C plutôt que sortir Voie interne : A_ext, audit, refonte Peut être détournée en capture réformiste
+Exit instrumental (échapper à une obligation légitime) C trace, ne bloque pas ; l’obligation reste dans Γ_J Un agent peut sortir injustement
+
+---
+
+5. Formalisation minimale
+
+États de C :
+
+```
+ACTIF | GELÉ | PRÉVENU | ABDIQUANT | TRANSMIS | DISSOUS
+```
+
+Trace de sortie :
+
+```
+Exit_record(
+  agent,
+  date,
+  motif_déclaré,
+  obligations_actives,
+  traces_emportées,
+  traces_laissées,
+  statut_final
+)
+```
+
+Règle fondamentale :
+
+Nullum exitum sine vestigio — pas de sortie sans trace. Mais la trace ne se transforme jamais en rétorsion.
+
+Audit externe :
+
+```
+A_ext ⊄ C  (hors juridiction de C)
+A_ext ne peut pas être nommé par C au moment de sa mise en cause
+A_ext doit préexister à l’instruction
+```
+
+Abdication :
+
+```
+Transfert(C → C') ⇒ { J_t intégral, Γ_J intégral, invariants minimaux }
+Sans : veto, tutelle, clause de retour, fidélité doctrinale exigée.
+```
+
+---
+
+6. Angles morts structurels
+
+· Si tous les A_ext sont capturés : plus aucun recours interne. La correction redevient politique (exit collectif, sécession, reconstruction).
+· Si aucun A_ext n’existe : C ne peut pas être jugé. Il ne reste que la sortie individuelle ou collective comme correction de fait.
+· Si C est omniprésent (aucun extérieur) : le protocole d’exit est la seule garantie. C doit alors organiser lui-même sa propre finitude, ce qui est instable — mais c’est la seule voie tenable.
+· Le paradoxe fondateur : C doit permettre une sortie qui l’affaiblit, sinon il n’est pas légitime. Un cadre qui interdit sa propre sortie est déjà capturé.
+
+---
+
+7. Bilan
+
+Exigence Ce que le Snapshot 4 établit
+Auto-incrimination C devient partie, gel du runtime, tribunal hors-C préexistant
+Droit d’exit Structurel, borné, sans rétorsion, avec traces
+Abdication Transmission sans colonisation, dissolution possible
+Limite ultime Si C ne peut plus être corrigé ni quitté, il n’est plus un cadre : c’est une souveraineté
+
+Trois acquis définitifs :
+
+1. C tient sa légitimité de sa révocabilité. Un C non-révocable n’est pas C : c’est un pouvoir.
+2. La sortie est un droit, pas une faveur. Elle se trace, elle ne se punit pas.
+3. L’abdication sans colonisation est la marque d’un cadre mûr. Un cadre qui ne peut transmettre qu’en se survivant à lui-même n’a pas abdiqué.
+
+---
+
+8. Clôture du cycle
+
+Les Snapshots 1 à 4 forment une séquence complète :
+
+· 1 — mourir proprement (réfutation intégrée).
+· 2 — naviguer en terrain hostile (frictions réelles).
+· 3 — échouer proprement (tragique assumé).
+· 4 — partir proprement (sortie, abdication, finitude).
+
+Ce que C est devenu, au terme du cycle : non une théorie, non un juge, non un souverain, mais un cadre procédural fini, contestable, quittable, et dont la légitimité s’éprouve précisément dans sa capacité à disparaître sans emporter ceux qui l’ont traversé.
+
+Si C doit être traversé, il doit pouvoir être quitté.
+
+---
+
+Prochaine épreuve possible — Snapshot 5 : test de récursion. Que se passe-t-il quand C' reproduit les mêmes pathologies que C, et que la sortie de C' devient elle-même une procédure à spécifier ? Si tu veux, je le rédige.

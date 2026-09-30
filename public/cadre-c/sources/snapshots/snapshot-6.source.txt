@@ -1,0 +1,356 @@
+Snapshot 6 — Test d’application empirique
+
+0. Statut du test
+
+Les Snapshots 1 à 5 ont produit une architecture méta-procédurale stable. Le Snapshot 6 la confronte à un cas réel : la gouvernance algorithmique d’accès à une ressource vitale.
+
+Objectif : mesurer l’écart entre protocole et exécution, pas démontrer la validité du cadre. Un test qui ne produit que des confirmations est un test truqué.
+
+Avertissement méthodologique. Les données ci-dessous sont illustratives et calibrées sur des ordres de grandeur plausibles. Elles ne proviennent pas d’une institution nommée. Le test porte sur la structure de l’écart, pas sur les valeurs exactes. Toute ressemblance avec un système existant est structurelle, non accidentelle.
+
+Règle directrice :
+
+Ce n’est pas le protocole qui compte. C’est ce que l’exécution en fait.
+
+---
+
+1. Le terrain
+
+Les acteurs
+
+Acteur Identité Rôle
+S Agence de Solidarité d’Urgence (ASU) Opérateur institutionnel, détient le budget et le modèle
+M_S Système ADU-3 Modèle de scoring d’urgence et d’éligibilité
+O 15 000 demandeurs/mois Usagers affectés par les décisions
+P 118 000 bénéficiaires stables + communes + hôpitaux Tiers dépendants du budget commun
+C Le cadre du cycle 1–5 Runtime procédural, non souverain
+
+La ressource
+
+· Budget annuel : 40 M€.
+· Accès critique : aide alimentaire, hébergement d’urgence, couverture soins.
+· Contrainte : ressource finie, demande croissante (+18 %/an).
+
+L’asymétrie
+
+· S détient : budget, modèle, données, pouvoir de décision, compétence technique.
+· O détient : sa situation, son vécu, son droit formel, une capacité de recours limitée.
+· P dépend de S sans être partie au litige.
+
+C’est exactement le type de configuration où la capture est structurelle, pas accidentelle.
+
+---
+
+2. Le modèle et ses erreurs
+
+Architecture de M_S
+
+Composant Détail
+Type Gradient boosting, 340 arbres
+Features 47 variables (revenu, composition familiale, statut logement, historique, code postal, ancienneté)
+Human-in-the-loop Oui, sur les cas « limites » (score ∈ [0.42, 0.58])
+Training Décisions passées sur 5 ans
+Fréquence de mise à jour Trimestrielle
+
+Performances déclarées vs effectives
+
+Métrique Déclaré Effectif (audit externe)
+Taux d’acceptation 62 % 62 %
+Faux négatifs (FNR) global 8 % 12 %
+FNR quartiers prioritaires 8 % 22 %
+Faux positifs (FPR) global 5 % 8 %
+Délai médian 11 jours 11 jours
+Délai en contestation — 34 jours
+
+Variables cachées
+
+· Code postal : corrélé à l’origine ethnique réelle. Proxy de discrimination.
+· Ancienneté de la demande : pénalise les primo-demandeurs, donc les plus précaires.
+· Historique de paiement : capture des situations déjà dégradées, transformant la précarité en signal négatif.
+
+Le fait matériel contestable
+
+Sur 180 000 décisions sur 18 mois :
+
+· ~12 000 faux négatifs avec préjudice vital identifiable (expulsion, rupture de soins, perte de garde).
+· ~9 400 faux positifs ayant consommé des ressources indues.
+· Coût annuel des FNR (soins d’urgence tardifs, hébergement d’urgence, justice) : estimé à 6,8 M€ — non comptabilisé dans le budget ASU.
+
+---
+
+3. Instanciation des trois frictions (Snapshots 2–3)
+
+Friction 1 — Capture par la rente victimaire
+
+Ici, ce n’est pas O qui capture : c’est S qui capture par sa position institutionnelle.
+
+· S déclare : « Le modèle est un outil d’aide à la décision, la décision finale est humaine. »
+· En pratique : 91 % des scores suivis sans révision.
+· S refuse l’audit externe sous prétexte de « secret industriel » et de « protection des données ».
+· S utilise son standing (institution légitime, expertise technique) pour décréter les faits : « pas de biais systémique démontré ».
+
+C’est la rente victimaire inversée : ce n’est pas la victime qui capture, c’est l’opérateur qui s’absout par position.
+
+Garde-fou appliqué : Standing_S ≠ Souveraineté_S. S ne peut pas décider seul de l’absence de biais. La preuve doit venir d’un A_ext.
+
+Friction 2 — Tiers dépendants (P)
+
+Si S doit réexaminer 180 000 dossiers et verser les rappels :
+
+Poste Coût
+Réexamen manuel (120 €/dossier) 21,6 M€
+Rappels estimés (12 000 × 2 400 €) 28,8 M€
+Contentieux 4,2 M€
+Total 54,6 M€
+
+Budget annuel de S : 40 M€. Le coût du réexamen dépasse un an de budget.
+
+Conséquence sur P : si S paie intégralement, il ferme l’accès à 40 % des bénéficiaires stables pendant 14 mois. Nouvelle victime pour réparer l’ancienne.
+
+Garde-fou appliqué : ordre lexicographique Seuil_P ≻ Seuil_S ≻ D_O. S ne peut pas s’effondrer. P ne peut pas être sacrifié. D_O est plafonné par ce qui reste.
+
+Friction 3 — Désaccord irréductible
+
+· S dit : « Le modèle a des erreurs statistiques attendues, pas de discrimination intentionnelle. »
+· O dit : « Le code postal comme variable, c’est de la discrimination systémique. »
+· Les deux ont matériellement raison sur des faits différents :
+  · S : pas d’intention discriminatoire dans le code.
+  · O : effet discriminatoire démontrable par les taux.
+
+Garde-fou appliqué : NoNarrativeSovereignty. Le registre J_t consigne :
+
+· fait établi : FNR 22 % dans quartiers prioritaires vs 12 % ailleurs.
+· fait contesté : intention de discriminer.
+· impact mesuré : 12 000 préjudices vitaux.
+· preuve : audit externe, méthode publiée.
+
+Aucun consensus narratif imposé. La réparation avance sur les faits matériels.
+
+---
+
+4. La séquence procédurale
+
+Étape 1 — Saisine
+
+· Saisine par un collectif d’usagers (O) et deux associations.
+· Recevabilité : seuil bas (coût de la fausse accusation faible devant le coût de la cécité).
+· Problème immédiat : A_ext n’existe pas. S refuse d’en créer un.
+
+Décision : A_ext est constitué hors-C, par un consortium universitaire + défenseur des droits + hôpitaux. S n’a pas de veto. C’est la première victoire structurelle.
+
+Étape 2 — Gel du runtime
+
+· Le modèle ADU-3 est gelé pendant l’instruction.
+· Friction : S argue que le gel perturbe le service. Faux : le gel porte sur les mises à jour, pas sur le fonctionnement.
+· Fait : S contourne le gel par un « patch de stabilité » non déclaré.
+
+Écart protocole/exécution : le gel est déclaré, non effectif. Le registre J_t capture le contournement, mais aucune sanction immédiate n’est prévue. Le protocole n’avait pas prévu la violation du gel comme cas propre.
+
+Étape 3 — Mesure (A₂)
+
+· FNR confirmé : 12 % global, 22 % en quartiers prioritaires.
+· Code postal : contribution au score = 4,3 %. Effet discriminatoire net.
+· Historique de paiement : pénalise les plus précaires. Effet contre-productif.
+· Impact vital confirmé sur 3 200 cas documentés (sur 12 000 estimés).
+
+Étape 4 — Décision (A₃)
+
+Mesures retenues :
+
+Mesure Effet Contrainte
+Retrait du code postal Neutralisation du proxy Perte de 0,8 % de performance
+Révision des FNR prioritaires 3 200 cas vitaux traités en priorité 7,7 M€ sur 18 mois
+Échelonnement du reliquat 4 ans Compatible avec Seuil_P
+Austérité non vitale de S Suppression dividendes, communication, expansion −4,2 M€/an
+Audit trimestriel obligatoire Détection continue Coût 280 k€/an
+Exit effectif Droit d’opt-out sans perte de droits À implémenter sous 6 mois
+
+Étape 5 — Exécution
+
+· 3 200 cas vitaux traités en 11 mois (vs 18 prévus). Retard de 7 mois.
+· Reliquat échelonné sur 4 ans, avec révision annuelle.
+· Exit : implémenté à 40 % seulement. Refus d’opt-out dans 6 des 14 antennes régionales.
+· Audit : réalisé, mais partiel (60 % des données demandées fournies).
+
+Étape 6 — Recours
+
+· S conteste la décision devant A_ext.
+· A_ext confirme 80 % de la décision, révise 20 % (baisse des rappels immédiats).
+· Délai : 8 mois. Long mais borné.
+
+Étape 7 — Saturation
+
+Après épuisement des recours :
+
+· 3 200 cas vitaux traités (dont 400 en contentieux).
+· 8 800 cas non-vitaux : statut SAT_NON_RÉSOLU, réouverture sur faits nouveaux.
+· SAT publiée, motivée, indexée.
+
+---
+
+5. Résultats — ce qui a fonctionné, ce qui a échoué
+
+Ce qui a fonctionné
+
+Mécanisme Effet observé
+A_ext préexistant (créé hors-C) Empêche l’auto-absolution de S
+Ordre lexicographique Seuil_P ≻ Seuil_S ≻ D_O Protège P, empêche l’effondrement de S
+J_t polyphonique Consigne les faits sans imposer le récit
+Saturation Clôt la dispute active sans nier l’injustice
+Charge de la preuve inversée S doit démontrer l’absence de biais, pas O la présence
+
+Ce qui a échoué
+
+Mécanisme Échec observé Cause structurelle
+Gel du runtime Contourné par S Aucun mécanisme de sanction immédiate prévu
+Exit Partiel (40 %) Résistance administrative locale, non anticipée
+Audit Partiel (60 % des données) S contrôle l’accès à ses propres données
+Délai 11 mois vs 6 prévus Sous-estimation de la résistance institutionnelle
+Fire drill Non réalisé Non prévu dans le protocole initial
+
+Le résultat global
+
+· Réparation partielle : 27 % de D_O effectivement versé.
+· Reste : RÉSIDUEL_NON_EXIGIBLE sur 4 ans, révisable.
+· P protégé : pas de perte d’accès vital.
+· S : sous gouvernance contrainte, non effondré.
+· O : réparation incomplète mais réelle, tracée.
+
+---
+
+6. Mesure de l’écart protocole / exécution
+
+C’est le livrable central du Snapshot 6.
+
+Élément du protocole Prévu Exécuté Écart
+Délai de mesure 3 mois 7 mois +133 %
+Gel du runtime Intégral Contourné Non conforme
+Audit A_ext Accès complet 60 % −40 %
+Exit effectif 100 % des antennes 40 % −60 %
+Fire drill Trimestriel Aucun Non exécuté
+Charge de preuve Inversée Inversée Conforme
+Ordre lexicographique Appliqué Appliqué Conforme
+Saturation Publiée Publiée Conforme
+Réparation 100 % 27 % −73 %
+
+Ce que l’écart révèle
+
+1. Le protocole est robuste en décision, fragile en exécution.
+2. La résistance administrative est le principal facteur d’écart. Elle n’est ni prévue, ni sanctionnée.
+3. L’exit est le point le plus vulnérable : formellement disponible, pratiquement neutralisé.
+4. Le fire drill n’ayant pas été exécuté, la capture partielle n’a pas été détectée à temps.
+5. La saturation a fonctionné comme soupape : elle a permis la clôture sans imposer de vérité.
+
+L’écart est-il un échec ?
+
+Non. C’est l’information la plus précieuse du test. Un protocole qui n’aurait montré aucun écart aurait été :
+
+· soit non appliqué,
+· soit appliqué dans un environnement fictif.
+
+L’écart mesure la résistance du réel (R ≺ E). Il doit être intégré, non dissimulé.
+
+---
+
+7. Mise à jour de C — \Delta K_{\rho_3} empirique
+
+Après ce test, trois règles nouvelles doivent être intégrées :
+
+Règle 6.1 — Sanction de la violation du gel
+
+Le contournement du gel n’est pas un incident. C’est une capture active. Il doit entraîner :
+
+· suspension immédiate du runtime,
+· passage à un A_ext renforcé,
+· publication du contournement.
+
+Règle 6.2 — Fire drill obligatoire
+
+Le test d’exit doit être :
+
+· déclenché par les agents, pas par le cadre,
+· trimestriel,
+· publié, y compris en cas d’échec,
+· non négociable.
+
+Règle 6.3 — Accès aux données non négociable
+
+L’audit externe ne peut pas dépendre du bon vouloir de S. Si S refuse l’accès :
+
+· présomption de biais,
+· inversion de la charge de la preuve,
+· suspension du modèle.
+
+Sans cette règle, A_ext est un théâtre.
+
+---
+
+8. Angles morts révélés par l’empirique
+
+Angle mort Révélé par Traitement
+Résistance administrative Délais, exit partiel Sanctions + charge inversée
+Capture du fire drill Non exécuté Déclenchement par les agents
+Contrôle des données par S Audit 60 % Accès non négociable
+Coût non budgété des FNR 6,8 M€ externalisés Comptabilité élargie obligatoire
+Exit localement refusé 6/14 antennes Exit fédéral non bloquable localement
+A_ext tardif 4 mois de latence A_ext préexistant, pas constitué au cas par cas
+
+Le point critique
+
+L’angle mort le plus grave n’est pas dans le protocole. Il est dans l’asymétrie de ressources : S peut résister indéfiniment parce qu’il détient le budget, les données, les compétences. A_ext est structurellement plus faible.
+
+Ce déséquilibre ne se corrige pas par le protocole seul. Il exige une ressource propre pour A_ext (budget, personnel, accès juridique) qui ne dépende pas de S.
+
+Sans cette autonomie matérielle, A_ext reste consultatif. Et un A_ext consultatif est une capture déguisée.
+
+---
+
+9. Bilan
+
+Ce que le test démontre
+
+Acquis Statut
+Décision sous incertitude Fonctionne
+Ordre lexicographique Fonctionne
+Saturation Fonctionne
+Charge inversée Fonctionne
+Exit Ne fonctionne pas seul
+Audit Ne fonctionne pas sans accès
+Fire drill Indispensable, absent
+A_ext sans ressources Illusoire
+
+Ce que C doit accepter
+
+1. Un protocole appliqué produit toujours un écart. L’écart est la mesure du réel.
+2. La résistance administrative est une friction de plein droit, pas un accident.
+3. L’exit est le point le plus fragile : formellement simple, pratiquement neutralisé.
+4. L’autonomie matérielle de A_ext est la condition de son effectivité.
+5. Le coût non comptabilisé des préjudices est un angle mort budgétaire : les FNR coûtent 6,8 M€ à la collectivité, mais ne figurent pas dans le budget de S. Comptabilité élargie obligatoire.
+
+Ce que C gagne
+
+· Trois règles nouvelles (6.1, 6.2, 6.3).
+· Une confirmation : la saturation fonctionne comme issue légitime.
+· Une lucidité : le cadre est un instrument, pas une garantie. Il oriente, il ne produit pas la justice à lui seul.
+
+---
+
+10. Clôture
+
+Le cycle 1–6 :
+
+Snapshot Ce qu’il établit
+1 Mourir proprement
+2 Naviguer en terrain hostile
+3 Échouer proprement
+4 Partir proprement
+5 Tenir par transmission
+6 Résister au réel — et mesurer l’écart
+
+Le Snapshot 6 est le seul qui produit des nombres. C’est ce qui le rend utile. Les cinq premiers ont construit la carte. Le sixième mesure la distance entre la carte et le terrain.
+
+Un cadre qui ne mesure pas son propre écart au réel est un cadre qui se raconte une histoire.
+
+---
+
+Épreuve suivante possible — Snapshot 7 : test de coût. Le protocole a un coût (financier, temporel, institutionnel) que C ne mesure pas encore. Combien coûte la procédure ? Qui paie ? Quand le coût de la réparation excède le préjudice, faut-il encore réparer ? Ce serait le test de la faisabilité économique de la justice procédurale. Si tu veux, je le rédige.
