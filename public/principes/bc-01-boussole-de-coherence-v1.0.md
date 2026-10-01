@@ -1,10 +1,10 @@
 # BC-01 v1.0 — Boussole de cohérence
 
-**Version canonique 1.0**, proposée par l'utilisateur le 2026-10-01 à 04:41 UTC dans le projet « reverse c » comme « première version canonique, que nous pourrons ensuite critiquer et corriger ».
+**Version 1.0 proposée, en examen.** Texte transmis par l'utilisateur le 2026-10-01 à 04:41 UTC dans le projet « reverse c », où il se présente comme « notre première version canonique, que nous pourrons ensuite critiquer et corriger ». L'auteur n'est pas précisé : les messages qui suivent laissent penser qu'il s'agit d'un échange avec une autre IA (inféré). L'utilisateur a choisi de faire contre-examiner le texte par Claude avant de le tenir pour une référence solide : il n'est donc pas encore adopté.
 
-Ce fichier reproduit le texte sans changer un mot : seuls des titres Markdown et des retours à la ligne forcés ont été ajoutés. La référence fait foi dans la copie brute [`sources/bc-01-boussole-de-coherence-v1.0.source.txt`](sources/bc-01-boussole-de-coherence-v1.0.source.txt) (message entier, SHA-256 `2c9c0bf55de0cbfaaf9273d4f2f2e840d96ada811e870c93c5b835f20a9fe96c`). L'extrait canonique seul, de « BC-01 v1.0 » à « … ou une discussion. », a pour SHA-256 `99fee055f738c31fc63bd3c5469bace31935c601db2618669204a16e11282252` (6215 octets).
+Ce fichier reproduit le texte sans changer un mot : seuls des titres Markdown et des retours à la ligne forcés ont été ajoutés. La référence fait foi dans la copie brute [`sources/bc-01-boussole-de-coherence-v1.0.source.txt`](sources/bc-01-boussole-de-coherence-v1.0.source.txt) (message entier, SHA-256 `2c9c0bf55de0cbfaaf9273d4f2f2e840d96ada811e870c93c5b835f20a9fe96c`). L'extrait BC-01 seul, de « BC-01 v1.0 » à « … ou une discussion. », a pour SHA-256 `99fee055f738c31fc63bd3c5469bace31935c601db2618669204a16e11282252` (6215 octets).
 
-Cette version n'est pas modifiée ici. Toute correction issue des tests devient une proposition de v1.1 avec sa trace, selon BC-01.C. Premiers tests : [`bc-01-tests-contradiction-serie-1.md`](bc-01-tests-contradiction-serie-1.md).
+Cette version n'est pas modifiée ici. Toute correction retenue après comparaison avec le contre-examen deviendra une v1.1 avec sa trace, selon BC-01.C. Contre-examen : [`bc-01-contre-examen-claude.md`](bc-01-contre-examen-claude.md). Tests détaillés : [`bc-01-tests-contradiction-serie-1.md`](bc-01-tests-contradiction-serie-1.md).
 
 ---
 

@@ -1,6 +1,6 @@
 # BC-01 v1.0 — Tests de contradiction, série 1
 
-Première série de tests volontaires demandée avec la proposition de [BC-01 v1.0](bc-01-boussole-de-coherence-v1.0.md) : « prendre des situations difficiles — culpabilité, injustice, désaccord, pardon impossible, conflit entre liberté et sécurité, erreur d'une IA, etc. — et voir où BC-01 casse ou devient ambiguë ».
+Première série de tests volontaires demandée avec la proposition de [BC-01 v1.0](bc-01-boussole-de-coherence-v1.0.md) (version proposée, en examen). Le document autonome à transmettre est [`bc-01-contre-examen-claude.md`](bc-01-contre-examen-claude.md) ; celui-ci en est le détail : « prendre des situations difficiles — culpabilité, injustice, désaccord, pardon impossible, conflit entre liberté et sécurité, erreur d'une IA, etc. — et voir où BC-01 casse ou devient ambiguë ».
 
 ## Statut des couches de ce document
 
@@ -9,7 +9,7 @@ Première série de tests volontaires demandée avec la proposition de [BC-01 v1
 | Source | **Source attestée** | BC-01 v1.0, message du 2026-10-01 à 04:41 UTC. Copie brute : [`sources/bc-01-boussole-de-coherence-v1.0.source.txt`](sources/bc-01-boussole-de-coherence-v1.0.source.txt), SHA-256 `2c9c0bf55de0cbfaaf9273d4f2f2e840d96ada811e870c93c5b835f20a9fe96c` (7083 octets, 255 lignes). |
 | § 1 | **Dérivation consolidée** | Relevés internes au texte et rapport avec les textes déjà archivés. Vérifiable mot à mot. |
 | § 2 | **Reconstruction analytique** | Les huit tests. Ce sont des lectures de Claude, faillibles, à contredire. |
-| § 3 | **Reconstruction analytique** | Corrections proposées pour une v1.1. Aucune n'est appliquée : la décision revient à l'utilisateur (BC-01.C, étapes 6 et 7). |
+| § 3 | **Reconstruction analytique** | Corrections proposées pour une v1.1. Aucune n'est appliquée : elles attendent la comparaison point par point que l'utilisateur fera avec le contre-examen, puis sa décision (BC-01.C, étapes 6 et 7). |
 
 Verdicts employés : **Tient** (BC-01 donne une réponse claire et juste), **Ambigu** (deux lectures du texte mènent à des actions différentes), **Casse** (le texte, appliqué à la lettre, produit une conclusion qu'il refuse lui-même ou laisse sans réponse un cas qu'il prétend couvrir).
 
@@ -23,7 +23,7 @@ Verdicts employés : **Tient** (BC-01 donne une réponse claire et juste), **Amb
 
 **R3. Le cycle ne prévoit pas de sortie.** Chaque étape suit la précédente, sans condition. Rien ne dit quoi faire si l'étape Vérité établit qu'il n'y a pas de faute.
 
-**R4. « Je » et « nous » alternent sans que le sujet soit défini.** Dans l'extrait canonique, « nous » apparaît 13 fois et « je » (avec « j' ») 7 fois. Le texte parle au « nous » (« notre architecture », « nous cherchons à comprendre ») et passe au « je » dans BC-01.8 (« que je puisse poser »), BC-01.M (« ma part ») et les phrases citées. Le « nous » n'est pas nommé.
+**R4. « Je » et « nous » alternent sans que le sujet soit défini.** Dans l'extrait BC-01 (de « BC-01 v1.0 » à « … ou une discussion. »), « nous » apparaît 13 fois et « je » (avec « j' ») 7 fois. Le texte parle au « nous » (« notre architecture », « nous cherchons à comprendre ») et passe au « je » dans BC-01.8 (« que je puisse poser »), BC-01.M (« ma part ») et les phrases citées. Le « nous » n'est pas nommé.
 
 **R5. Aucune clause sur l'abstention.** BC-01.0 dit : « Être capable d'agir ne constitue pas, en soi, une raison d'agir. » Le texte ne contient aucune phrase symétrique sur le fait de ne pas agir.
 
