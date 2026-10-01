@@ -1,6 +1,8 @@
 # BC-01 v1.0 — Tests de contradiction, série 1
 
-Première série de tests volontaires demandée avec la proposition de [BC-01 v1.0](bc-01-boussole-de-coherence-v1.0.md) (version proposée, en examen). Le document autonome à transmettre est [`bc-01-contre-examen-claude.md`](bc-01-contre-examen-claude.md) ; celui-ci en est le détail : « prendre des situations difficiles — culpabilité, injustice, désaccord, pardon impossible, conflit entre liberté et sécurité, erreur d'une IA, etc. — et voir où BC-01 casse ou devient ambiguë ».
+Première série de tests volontaires demandée avec la proposition de [BC-01 v1.0](bc-01-boussole-de-coherence-v1.0.md) (version proposée, en examen) : « prendre des situations difficiles — culpabilité, injustice, désaccord, pardon impossible, conflit entre liberté et sécurité, erreur d'une IA, etc. — et voir où BC-01 casse ou devient ambiguë ».
+
+Le document autonome à transmettre est [`bc-01-contre-examen-claude.md`](bc-01-contre-examen-claude.md) ; celui-ci en donne le détail.
 
 ## Statut des couches de ce document
 
