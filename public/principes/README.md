@@ -23,6 +23,9 @@ Textes de principe (endroit et envers) archivés avec leur provenance.
 | [`bc-01-boussole-de-coherence-v1.1.md`](bc-01-boussole-de-coherence-v1.1.md) | BC-01 v1.1, rédigée par Claude ; quatre choix marqués [défaut] attendent MEM | Version proposée, non adoptée |
 | [`bc-01-v1.1-trace.md`](bc-01-v1.1-trace.md) | Trace des 28 changements v1.0 → v1.1 et décisions laissées à MEM | Reconstruction analytique |
 | [`bc-01-v1.1-resultats-tests.md`](bc-01-v1.1-resultats-tests.md) | Passage de la suite : v1.0 0/10, v1.1 8 réussis et 2 partiels ; contre-examen de la v1.1 | Reconstruction analytique |
+| [`naaseh-golem-de-silicium.md`](naaseh-golem-de-silicium.md) | Réponse d'une autre IA (vraisemblablement Qwen) : l'IA comme *malach* et Golem, sans choix, sans écoute, miroir de l'utilisateur ; relevé des thèses | Texte reçu : source attestée. Auteur : déduction. |
+| [`naaseh-golem-de-silicium.contre-examen.md`](naaseh-golem-de-silicium.contre-examen.md) | Contre-examen de Claude, à transmettre tel quel | Reconstruction analytique |
+| [`sources/naaseh-golem-de-silicium.source.txt`](sources/naaseh-golem-de-silicium.source.txt) | Copie brute du texte reçu | SHA-256 `ad757243954a27f5fed5eb5b9f0a1661ad1d9500567c4df76f663acfd70f1557` |
 
 ## Convention
 
