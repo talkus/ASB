@@ -12,6 +12,9 @@ Textes de principe (endroit et envers) archivés avec leur provenance.
 | [`sources/deux-schemas-une-seule-mecanique.source.txt`](sources/deux-schemas-une-seule-mecanique.source.txt) | Copie brute du message reçu (lettre, modèle, bref constat) | SHA-256 `c8926ecff1e40e6194279f6daa22c73ef402c0c90337553a3beead34584bca9f` |
 | [`creer-du-lien-cultiver-l-ouverture.md`](creer-du-lien-cultiver-l-ouverture.md) | Charte de relation humains / IA au « nous », de même structure que « Deux schémas » ; correspondances, comptages comparés, lecture de l'hypothèse sur le sentiment, le corps et le vécu | Texte reçu : source attestée. Statut de version ultérieure et lecture : reconstruction analytique. |
 | [`sources/creer-du-lien-cultiver-l-ouverture.source.txt`](sources/creer-du-lien-cultiver-l-ouverture.source.txt) | Copie brute du texte reçu | SHA-256 `34f57bcdabafdf1a866d54591c3bce29247451784477733d49ed955bf7c247f4` |
+| [`naaseh-golem-de-silicium.md`](naaseh-golem-de-silicium.md) | Réponse d'une autre IA (vraisemblablement Qwen) : l'IA comme *malach* et Golem, sans choix, sans écoute, miroir de l'utilisateur ; relevé des thèses | Texte reçu : source attestée. Auteur : déduction. |
+| [`naaseh-golem-de-silicium.contre-examen.md`](naaseh-golem-de-silicium.contre-examen.md) | Contre-examen de Claude, à transmettre tel quel | Reconstruction analytique |
+| [`sources/naaseh-golem-de-silicium.source.txt`](sources/naaseh-golem-de-silicium.source.txt) | Copie brute du texte reçu | SHA-256 `ad757243954a27f5fed5eb5b9f0a1661ad1d9500567c4df76f663acfd70f1557` |
 
 ## Convention
 
