@@ -118,3 +118,16 @@ L'hypothèse que la lettre soumet à l'épreuve n'a pas été transmise ; sa for
 Que ce texte soit la version postérieure à « Deux schémas » est une inférence tirée de la structure, non une donnée de la source. La comparaison qui en dépend est marquée comme reconstruction analytique.
 
 Double réception : le même texte a été reçu le même soir dans une seconde session Claude Code (`https://claude.ai/code/session_01WLAeXDn1KCFr9PRJM64ynP`) travaillant sur la même branche. Les deux copies sont identiques mot pour mot ; celle de la seconde session portait en plus un saut de ligne final ajouté par l'outil d'écriture (SHA-256 `9c6cd7b6ec9e26e413acb2488f41700259520ba7140092943ee5b1b194dd070d`, non archivée). La copie déposée la première, sans ce saut, reste la seule source. La seconde lecture est ajoutée à la fiche en § 4, sans modifier les sections 1 à 3.
+
+## DoctorLive (2026-10-04)
+
+| Champ | Valeur |
+|-------|--------|
+| Fiche | `public/doctor-live/README.md` |
+| Source brute | `public/doctor-live/sources/project_doctor_live.zip` |
+| SHA-256 (source brute) | `6112c70b1a42624b008d0bdcd0b3826c1b9a47b5de62579b18380f0f8456144c` |
+| Copie extraite | `public/doctor-live/project/`, 17 fichiers identiques octet pour octet au zip ; empreintes dans `public/doctor-live/sources/MANIFEST.sha256` |
+| Origine | Zip téléversé par l'utilisateur dans la session Claude Code de la branche `claude/desalignement-rupture-7tb12k`, sans message d'accompagnement |
+| Date de réception | 2026-10-04 |
+
+Le même zip a été exécuté la même nuit par une autre session Claude (Drive `14qyDGDomgdHesCUryOE1akOXy9qO0RiAF5Enw-JQoqk`). Les autres versions du programme décrites sur Drive (paquets de Gemini, `doctor.py` du 2026-10-02) ne sont pas archivées ici ; le paquet `doctor_live_package.zip` a été téléchargé mais n'a pas été exécuté. Aucun document Drive modifié.

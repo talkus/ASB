@@ -6,3 +6,4 @@ Snapshots et archives des travaux originaux.
 - [exports/](exports/) — pipeline d'export Notion / Drive (manifeste, statuts)
 - [principes/](principes/) — textes de principe (endroit et envers) avec provenance
 - [cadre-c/](cadre-c/) — transcriptions du cadre procédural C (cycle Snapshots 1 à 8) avec vérification des artefacts annoncés
+- [doctor-live/](doctor-live/) — programme de contrôle DoctorLive (Anneau des 23), version reçue le 2026-10-04, exécuté et vérifié
